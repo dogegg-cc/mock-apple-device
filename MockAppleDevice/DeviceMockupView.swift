@@ -102,12 +102,13 @@ private struct ScreenshotPlaceholder: View {
 
 private struct MissingVariantPlaceholder: View {
     let orientation: DeviceOrientation
+    @AppStorage("app_language") private var appLanguage: String = "zh-Hans"
     
     var body: some View {
         VStack {
             Image(systemName: "exclamationmark.triangle")
                 .foregroundColor(.orange)
-            Text("该设备缺少在此方向（\(orientation.displayName)）或颜色下的模型图片")
+            Text("该设备缺少在此方向（\(orientation.localizedName(forLanguage: appLanguage))）或颜色下的模型图片")
                 .font(.caption)
                 .foregroundColor(.secondary)
         }

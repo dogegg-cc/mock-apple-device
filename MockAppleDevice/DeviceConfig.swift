@@ -49,6 +49,14 @@ enum DeviceOrientation: String, Codable, CaseIterable, Identifiable {
         case .landscape: return "横屏 (Landscape)"
         }
     }
+    
+    func localizedName(forLanguage language: String) -> String {
+        let isEnglish = language == "en"
+        switch self {
+        case .portrait: return isEnglish ? "Portrait" : "竖屏"
+        case .landscape: return isEnglish ? "Landscape" : "横屏"
+        }
+    }
 }
 
 struct VariantConfig: Codable, Hashable {

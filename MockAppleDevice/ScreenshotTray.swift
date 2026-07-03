@@ -52,7 +52,7 @@ private struct TrayHeader: View {
     
     var body: some View {
         HStack {
-            Text("待处理截图 (\(screenshotCount))")
+            Text(LocalizedStringKey("待处理截图 (\(screenshotCount))"))
                 .font(.subheadline)
                 .fontWeight(.medium)
                 .foregroundColor(.primary)

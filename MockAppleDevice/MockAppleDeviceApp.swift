@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct MockAppleDeviceApp: App {
+    @AppStorage("app_language") private var appLanguage: String = "zh-Hans"
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(\.locale, Locale(identifier: appLanguage))
         }
     }
 }

@@ -3,6 +3,7 @@ import SwiftUI
 struct ContentView: View {
     // State Model
     @State private var state = MockupState()
+    @AppStorage("app_language") private var appLanguage: String = "zh-Hans"
     
     // Body
     var body: some View {
@@ -56,6 +57,35 @@ struct ContentView: View {
             .background(Color(red: 0.95, green: 0.95, blue: 0.97).ignoresSafeArea())
             .navigationTitle("MockAppleDevice - 全品类高清套壳工具")
             .toolbarBackground(Color.clear, for: .windowToolbar)
+            .toolbar {
+                ToolbarItem(placement: .primaryAction) {
+                    Menu {
+                        Button {
+                            appLanguage = "zh-Hans"
+                        } label: {
+                            HStack {
+                                Text("简体中文")
+                                if appLanguage == "zh-Hans" {
+                                    Image(systemName: "checkmark")
+                                }
+                            }
+                        }
+                        
+                        Button {
+                            appLanguage = "en"
+                        } label: {
+                            HStack {
+                                Text("English")
+                                if appLanguage == "en" {
+                                    Image(systemName: "checkmark")
+                                }
+                            }
+                        }
+                    } label: {
+                        Label("语言", systemImage: "globe")
+                    }
+                }
+            }
         }
         .frame(minWidth: 1050, minHeight: 700)
         .preferredColorScheme(.light)
