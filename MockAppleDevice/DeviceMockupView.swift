@@ -87,14 +87,14 @@ private struct ScreenshotPlaceholder: View {
     
     var body: some View {
         ZStack {
-            Color(red: 0.1, green: 0.1, blue: 0.13)
+            Color(red: 0.94, green: 0.95, blue: 0.97)
             VStack(spacing: 8) {
                 Image(systemName: "photo.on.rectangle")
                     .font(.system(size: iconSize))
-                    .foregroundColor(.secondary)
+                    .foregroundColor(.gray.opacity(0.7))
                 Text("拖入截图")
                     .font(.system(size: textSize))
-                    .foregroundColor(.secondary)
+                    .foregroundColor(.gray.opacity(0.8))
             }
         }
     }

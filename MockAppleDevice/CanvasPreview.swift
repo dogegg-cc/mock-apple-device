@@ -31,6 +31,28 @@ struct CanvasPreview: View {
             ScreenshotTray(state: state)
         }
         .background(Color(red: 0.95, green: 0.95, blue: 0.97))
+        .onDrop(of: [.fileURL, .image], isTargeted: nil) { providers in
+            for provider in providers {
+                if provider.hasItemConformingToTypeIdentifier(UTType.fileURL.identifier) {
+                    _ = provider.loadObject(ofClass: URL.self) { url, error in
+                        if let url = url {
+                            DispatchQueue.main.async {
+                                state.addScreenshot(url: url)
+                            }
+                        }
+                    }
+                } else if provider.hasItemConformingToTypeIdentifier(UTType.image.identifier) {
+                    _ = provider.loadDataRepresentation(forTypeIdentifier: UTType.image.identifier) { data, error in
+                        if let data = data, let nsImage = NSImage(data: data) {
+                            DispatchQueue.main.async {
+                                state.addScreenshot(image: nsImage, name: "image-\(Int(Date().timeIntervalSince1970))")
+                            }
+                        }
+                    }
+                }
+            }
+            return true
+        }
     }
 }
 
@@ -50,8 +72,4 @@ private struct EmptyDevicePlaceholder: View {
                 .foregroundColor(.secondary)
         }
     }
-}
-
-#Preview {
-    CanvasPreview(state: MockupState())
 }

@@ -68,13 +68,11 @@ enum ExportService {
     }
     
     /// 批量导出所有截图
-    static func exportAll(
-        screenshots: [ScreenshotItem],
-        device: DeviceModel,
-        selectedColor: String,
-        selectedOrientations: Set<DeviceOrientation>
-    ) {
-        guard !screenshots.isEmpty else { return }
+    static func exportAll(state: MockupState) {
+        let screenshots = state.screenshots
+        guard let device = state.selectedDevice, !screenshots.isEmpty else { return }
+        let selectedColor = state.selectedColor
+        let selectedOrientations = state.selectedOrientations
         guard !selectedOrientations.isEmpty else { return }
         
         let openPanel = NSOpenPanel()
@@ -87,6 +85,9 @@ enum ExportService {
         openPanel.begin { response in
             guard response == .OK, let targetURL = openPanel.url else { return }
             
+            // 开启 Loading 遮罩
+            state.isExporting = true
+            
             DispatchQueue.global(qos: .userInitiated).async {
                 // 后台线程访问安全作用域目录 (解决 macOS App Sandbox 513 权限错误)
                 let hasAccess = targetURL.startAccessingSecurityScopedResource()
@@ -97,6 +98,7 @@ enum ExportService {
                 }
                 
                 var successCount = 0
+                var fileIndex = 1
                 
                 for item in screenshots {
                     for orientation in selectedOrientations {
@@ -127,12 +129,13 @@ enum ExportService {
                             let rawName = (item.name as NSString).deletingPathExtension
                             let cleanDeviceName = device.name.replacingOccurrences(of: " ", with: "_")
                             let cleanColor = selectedColor.replacingOccurrences(of: " ", with: "_")
-                            let fileName = "\(rawName)_\(cleanDeviceName)_\(cleanColor)_\(orientation.rawValue).png"
+                            let fileName = "\(rawName)_\(cleanDeviceName)_\(cleanColor)_\(orientation.rawValue)_\(fileIndex).png"
                             let fileURL = targetURL.appendingPathComponent(fileName)
                             
                             do {
                                 try pngData.write(to: fileURL)
                                 successCount += 1
+                                fileIndex += 1
                             } catch {
                                 print("Error writing png image: \(error)")
                             }
@@ -140,8 +143,10 @@ enum ExportService {
                     }
                 }
                 
-                // 提示成功
+                // 提示成功并关闭 Loading 遮罩
                 DispatchQueue.main.async {
+                    state.isExporting = false
+                    
                     let alert = NSAlert()
                     alert.messageText = "导出完成"
                     alert.informativeText = "成功导出 \(successCount) 张高品质透明背景套壳图片至文件夹：\n\(targetURL.path)"

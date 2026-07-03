@@ -13,14 +13,43 @@ struct ContentView: View {
                 selectedDevice: $state.selectedDevice
             )
         } detail: {
-            HStack(spacing: 0) {
-                // 中间预览工作区与拖入模块
-                CanvasPreview(state: state)
+            ZStack {
+                HStack(spacing: 0) {
+                    // 中间预览工作区与拖入模块
+                    CanvasPreview(state: state)
+                    
+                    Divider()
+                    
+                    // 右侧属性定制与批量导出面板
+                    ControlPanel(state: state)
+                }
+                .disabled(state.isExporting)
                 
-                Divider()
-                
-                // 右侧属性定制与批量导出面板
-                ControlPanel(state: state)
+                if state.isExporting {
+                    ZStack {
+                        Color.black.opacity(0.15)
+                            .ignoresSafeArea()
+                        
+                        VStack(spacing: 16) {
+                            ProgressView()
+                                .controlSize(.large)
+                            Text("正在导出高品质样机，请稍候...")
+                                .font(.headline)
+                                .foregroundColor(.primary)
+                            Text("保存过程中请勿关闭应用")
+                                .font(.subheadline)
+                                .foregroundColor(.secondary)
+                        }
+                        .padding(32)
+                        .background(
+                            RoundedRectangle(cornerRadius: 16)
+                                .fill(Color.white)
+                                .shadow(color: Color.black.opacity(0.1), radius: 12, x: 0, y: 6)
+                        )
+                        .frame(width: 320)
+                    }
+                    .transition(.opacity.animation(.easeInOut(duration: 0.2)))
+                }
             }
             .frame(minWidth: 700, minHeight: 600)
         }
@@ -29,8 +58,4 @@ struct ContentView: View {
         // 强制启用浅色系主题 (解决问题 5)
         .preferredColorScheme(.light)
     }
-}
-
-#Preview {
-    ContentView()
 }

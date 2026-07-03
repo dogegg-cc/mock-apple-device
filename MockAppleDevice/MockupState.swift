@@ -7,7 +7,11 @@ class MockupState {
     let deviceRepository: DeviceRepository
 
     // UI 选择状态
-    var selectedCategory: DeviceCategory = .iphone
+    var selectedCategory: DeviceCategory = .iphone {
+        didSet {
+            selectFirstAvailableDevice()
+        }
+    }
     var selectedDevice: DeviceModel? {
         didSet {
             handleDeviceChange()
@@ -16,6 +20,7 @@ class MockupState {
     var selectedColor: String = ""
     var previewOrientation: DeviceOrientation = .portrait
     var selectedOrientations: Set<DeviceOrientation> = [.portrait]
+    var isExporting: Bool = false
     
     // 截图数据
     var screenshots: [ScreenshotItem] = []
@@ -71,13 +76,8 @@ class MockupState {
     
     /// 导出（委托给 ExportService）
     func exportAll() {
-        guard let device = selectedDevice, !selectedColor.isEmpty else { return }
-        ExportService.exportAll(
-            screenshots: screenshots,
-            device: device,
-            selectedColor: selectedColor,
-            selectedOrientations: selectedOrientations
-        )
+        guard selectedDevice != nil, !selectedColor.isEmpty else { return }
+        ExportService.exportAll(state: self)
     }
 }
 
