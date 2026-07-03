@@ -4,10 +4,9 @@
 
 `MockAppleDevice` is a high-definition, all-in-one Apple device mockup tool developed specifically for macOS. It allows developers, designers, and marketers to easily import app screenshots and system interfaces into real-device frames (iPhone, iPad, MacBook, Apple Watch), rendering professional mockups with natural rounded corners, precise screen fitting, and shadows in one click.
 
----
-
 <img width="684" height="482.5" alt="截屏2026-07-03 16 44 37" src="https://github.com/user-attachments/assets/f6d8eb0e-c7e7-48bd-9515-4ad353054291" />
 
+---
 
 ## 🌟 Core Features
 
