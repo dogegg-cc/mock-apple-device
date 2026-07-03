@@ -2,7 +2,14 @@
   "sourceLanguage" : "zh-Hans",
   "strings" : {
     "English" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "English"
+          }
+        }
+      }
     },
     "MockAppleDevice - 全品类高清套壳工具" : {
       "comment" : "The title of the app.",
@@ -161,7 +168,14 @@
       }
     },
     "简体中文" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "简体中文"
+          }
+        }
+      }
     },
     "设备颜色 / 样式" : {
       "comment" : "A label displayed above the color and style picker for the device.",
@@ -188,7 +202,14 @@
       }
     },
     "语言" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "语言"
+          }
+        }
+      }
     },
     "请先导入截图" : {
       "comment" : "A button title that appears when there are no screenshots to export.",
