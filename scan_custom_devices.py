@@ -99,6 +99,9 @@ def detect_screen_rect(image_path, category, orientation):
             
         # 向上/向下扫描使用偏离中央 25% 宽度的 scan_x 轴线，以避开屏幕中央刘海 (Notch) / 摄像头等实色块的阻挡
         scan_x = cx - width // 4
+        if category == "appleWatch":
+            scan_x = cx
+            
         if img.getpixel((scan_x, cy))[3] != 0:
             found_scan_x = False
             for dx in range(-width // 8, width // 8):

@@ -68,7 +68,7 @@ private struct CornerRadiusModifier: ViewModifier {
     let screenHeight: CGFloat
     
     func body(content: Content) -> some View {
-        if category == .iphone {
+        if category == .iphone || category == .appleWatch {
             let cr = min(screenWidth, screenHeight) * category.defaultCornerRadius
             content
                 .clipShape(RoundedRectangle(cornerRadius: cr, style: .continuous))
