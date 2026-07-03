@@ -5,10 +5,10 @@
         "landscape": {
           "imageName": "macbook_neo_blush_landscape",
           "screenRect": {
-            "x": 0.082,
-            "y": 0.032,
-            "width": 0.836,
-            "height": 0.548
+            "x": 0.12008695652173912,
+            "y": 0.13542857142857143,
+            "width": 0.7598260869565218,
+            "height": 0.7291428571428572
           }
         }
       },
@@ -16,10 +16,10 @@
         "landscape": {
           "imageName": "macbook_neo_silver_landscape",
           "screenRect": {
-            "x": 0.082,
-            "y": 0.032,
-            "width": 0.836,
-            "height": 0.548
+            "x": 0.12008695652173912,
+            "y": 0.13542857142857143,
+            "width": 0.7598260869565218,
+            "height": 0.7291428571428572
           }
         }
       },
@@ -27,10 +27,10 @@
         "landscape": {
           "imageName": "macbook_neo_indigo_landscape",
           "screenRect": {
-            "x": 0.082,
-            "y": 0.032,
-            "width": 0.836,
-            "height": 0.548
+            "x": 0.12008695652173912,
+            "y": 0.13542857142857143,
+            "width": 0.7598260869565218,
+            "height": 0.7291428571428572
           }
         }
       },
@@ -38,10 +38,10 @@
         "landscape": {
           "imageName": "macbook_neo_citrus_landscape",
           "screenRect": {
-            "x": 0.082,
-            "y": 0.032,
-            "width": 0.836,
-            "height": 0.548
+            "x": 0.12008695652173912,
+            "y": 0.13542857142857143,
+            "width": 0.7598260869565218,
+            "height": 0.7291428571428572
           }
         }
       }
@@ -51,10 +51,10 @@
         "landscape": {
           "imageName": "macbook_pro_m5_14_inch_silver_landscape",
           "screenRect": {
-            "x": 0.082,
-            "y": 0.032,
-            "width": 0.836,
-            "height": 0.548
+            "x": 0.1022901554404145,
+            "y": 0.13258267716535432,
+            "width": 0.795419689119171,
+            "height": 0.7600314960629921
           }
         }
       },
@@ -62,10 +62,10 @@
         "landscape": {
           "imageName": "macbook_pro_m5_14_inch_space_black_landscape",
           "screenRect": {
-            "x": 0.082,
-            "y": 0.032,
-            "width": 0.836,
-            "height": 0.548
+            "x": 0.1022901554404145,
+            "y": 0.13258267716535432,
+            "width": 0.795419689119171,
+            "height": 0.7600314960629921
           }
         }
       }
@@ -75,10 +75,10 @@
         "landscape": {
           "imageName": "macbook_pro_m5_16_inch_silver_landscape",
           "screenRect": {
-            "x": 0.082,
-            "y": 0.032,
-            "width": 0.836,
-            "height": 0.548
+            "x": 0.08836619718309859,
+            "y": 0.12322535211267605,
+            "width": 0.8232676056338029,
+            "height": 0.7760845070422535
           }
         }
       },
@@ -86,10 +86,10 @@
         "landscape": {
           "imageName": "macbook_pro_m5_16_inch_space_black_landscape",
           "screenRect": {
-            "x": 0.082,
-            "y": 0.032,
-            "width": 0.836,
-            "height": 0.548
+            "x": 0.08836619718309859,
+            "y": 0.12322535211267605,
+            "width": 0.8232676056338029,
+            "height": 0.7760845070422535
           }
         }
       }
@@ -99,10 +99,10 @@
         "landscape": {
           "imageName": "macbook_air_m5_15_inch_midnight_landscape",
           "screenRect": {
-            "x": 0.082,
-            "y": 0.032,
-            "width": 0.836,
-            "height": 0.548
+            "x": 0.08693785310734463,
+            "y": 0.11269565217391304,
+            "width": 0.8255593220338984,
+            "height": 0.7985217391304348
           }
         }
       },
@@ -110,10 +110,10 @@
         "landscape": {
           "imageName": "macbook_air_m5_15_inch_silver_landscape",
           "screenRect": {
-            "x": 0.082,
-            "y": 0.032,
-            "width": 0.836,
-            "height": 0.548
+            "x": 0.08693785310734463,
+            "y": 0.11269565217391304,
+            "width": 0.8255593220338984,
+            "height": 0.7985217391304348
           }
         }
       },
@@ -121,10 +121,10 @@
         "landscape": {
           "imageName": "macbook_air_m5_15_inch_starlight_landscape",
           "screenRect": {
-            "x": 0.082,
-            "y": 0.032,
-            "width": 0.836,
-            "height": 0.548
+            "x": 0.08693785310734463,
+            "y": 0.11269565217391304,
+            "width": 0.8255593220338984,
+            "height": 0.7985217391304348
           }
         }
       }
@@ -134,10 +134,10 @@
         "landscape": {
           "imageName": "macbook_air_m5_13_inch_midnight_landscape",
           "screenRect": {
-            "x": 0.082,
-            "y": 0.032,
-            "width": 0.836,
-            "height": 0.548
+            "x": 0.11752941176470588,
+            "y": 0.14801785714285715,
+            "width": 0.7649411764705882,
+            "height": 0.7294107142857142
           }
         }
       },
@@ -145,10 +145,10 @@
         "landscape": {
           "imageName": "macbook_air_m5_13_inch_starlight_landscape",
           "screenRect": {
-            "x": 0.082,
-            "y": 0.032,
-            "width": 0.836,
-            "height": 0.548
+            "x": 0.11752941176470588,
+            "y": 0.14801785714285715,
+            "width": 0.7649411764705882,
+            "height": 0.7294107142857142
           }
         }
       },
@@ -156,10 +156,10 @@
         "landscape": {
           "imageName": "macbook_air_m5_13_inch_silver_landscape",
           "screenRect": {
-            "x": 0.082,
-            "y": 0.032,
-            "width": 0.836,
-            "height": 0.548
+            "x": 0.11752941176470588,
+            "y": 0.14801785714285715,
+            "width": 0.7649411764705882,
+            "height": 0.7294107142857142
           }
         }
       }
@@ -169,10 +169,10 @@
         "landscape": {
           "imageName": "macbook_air_m5_15_inch_sky_blue_landscape",
           "screenRect": {
-            "x": 0.082,
-            "y": 0.032,
-            "width": 0.836,
-            "height": 0.548
+            "x": 0.08693785310734463,
+            "y": 0.11269565217391304,
+            "width": 0.8255593220338984,
+            "height": 0.7985217391304348
           }
         }
       }
@@ -182,10 +182,10 @@
         "landscape": {
           "imageName": "macbook_air_m5_13_inch_sky_blue_landscape",
           "screenRect": {
-            "x": 0.082,
-            "y": 0.032,
-            "width": 0.836,
-            "height": 0.548
+            "x": 0.11752941176470588,
+            "y": 0.14801785714285715,
+            "width": 0.7649411764705882,
+            "height": 0.7294107142857142
           }
         }
       }
@@ -197,19 +197,19 @@
         "landscape": {
           "imageName": "ipad_a16_silver_landscape",
           "screenRect": {
-            "x": 0.038,
-            "y": 0.028,
-            "width": 0.924,
-            "height": 0.944
+            "x": 0.06646376811594203,
+            "y": 0.0920392156862745,
+            "width": 0.867072463768116,
+            "height": 0.8154313725490197
           }
         },
         "portrait": {
           "imageName": "ipad_a16_silver_portrait",
           "screenRect": {
-            "x": 0.038,
-            "y": 0.028,
-            "width": 0.924,
-            "height": 0.944
+            "x": 0.0920392156862745,
+            "y": 0.06646376811594203,
+            "width": 0.8154313725490197,
+            "height": 0.867072463768116
           }
         }
       },
@@ -217,19 +217,19 @@
         "portrait": {
           "imageName": "ipad_a16_blue_portrait",
           "screenRect": {
-            "x": 0.038,
-            "y": 0.028,
-            "width": 0.924,
-            "height": 0.944
+            "x": 0.0920392156862745,
+            "y": 0.06646376811594203,
+            "width": 0.8154313725490197,
+            "height": 0.867072463768116
           }
         },
         "landscape": {
           "imageName": "ipad_a16_blue_landscape",
           "screenRect": {
-            "x": 0.038,
-            "y": 0.028,
-            "width": 0.924,
-            "height": 0.944
+            "x": 0.06646376811594203,
+            "y": 0.0920392156862745,
+            "width": 0.867072463768116,
+            "height": 0.8154313725490197
           }
         }
       },
@@ -237,19 +237,19 @@
         "landscape": {
           "imageName": "ipad_a16_pink_landscape",
           "screenRect": {
-            "x": 0.038,
-            "y": 0.028,
-            "width": 0.924,
-            "height": 0.944
+            "x": 0.06646376811594203,
+            "y": 0.0920392156862745,
+            "width": 0.867072463768116,
+            "height": 0.8154313725490197
           }
         },
         "portrait": {
           "imageName": "ipad_a16_pink_portrait",
           "screenRect": {
-            "x": 0.038,
-            "y": 0.028,
-            "width": 0.924,
-            "height": 0.944
+            "x": 0.0920392156862745,
+            "y": 0.06646376811594203,
+            "width": 0.8154313725490197,
+            "height": 0.867072463768116
           }
         }
       },
@@ -257,19 +257,19 @@
         "portrait": {
           "imageName": "ipad_a16_yellow_portrait",
           "screenRect": {
-            "x": 0.038,
-            "y": 0.028,
-            "width": 0.924,
-            "height": 0.944
+            "x": 0.0920392156862745,
+            "y": 0.06646376811594203,
+            "width": 0.8154313725490197,
+            "height": 0.867072463768116
           }
         },
         "landscape": {
           "imageName": "ipad_a16_yellow_landscape",
           "screenRect": {
-            "x": 0.038,
-            "y": 0.028,
-            "width": 0.924,
-            "height": 0.944
+            "x": 0.06646376811594203,
+            "y": 0.0920392156862745,
+            "width": 0.867072463768116,
+            "height": 0.8154313725490197
           }
         }
       }
@@ -279,19 +279,19 @@
         "landscape": {
           "imageName": "ipad_mini_a17_pro_space_gray_landscape",
           "screenRect": {
-            "x": 0.038,
-            "y": 0.028,
-            "width": 0.924,
-            "height": 0.944
+            "x": 0.049686274509803924,
+            "y": 0.07602247191011235,
+            "width": 0.9006274509803922,
+            "height": 0.8479550561797753
           }
         },
         "portrait": {
           "imageName": "ipad_mini_a17_pro_space_gray_portrait",
           "screenRect": {
-            "x": 0.038,
-            "y": 0.028,
-            "width": 0.924,
-            "height": 0.944
+            "x": 0.07602247191011235,
+            "y": 0.049686274509803924,
+            "width": 0.8479550561797753,
+            "height": 0.9006274509803922
           }
         }
       },
@@ -299,19 +299,19 @@
         "landscape": {
           "imageName": "ipad_mini_a17_pro_purple_landscape",
           "screenRect": {
-            "x": 0.038,
-            "y": 0.028,
-            "width": 0.924,
-            "height": 0.944
+            "x": 0.049686274509803924,
+            "y": 0.07602247191011235,
+            "width": 0.9006274509803922,
+            "height": 0.8479550561797753
           }
         },
         "portrait": {
           "imageName": "ipad_mini_a17_pro_purple_portrait",
           "screenRect": {
-            "x": 0.038,
-            "y": 0.028,
-            "width": 0.924,
-            "height": 0.944
+            "x": 0.07602247191011235,
+            "y": 0.049686274509803924,
+            "width": 0.8479550561797753,
+            "height": 0.9006274509803922
           }
         }
       },
@@ -319,19 +319,19 @@
         "landscape": {
           "imageName": "ipad_mini_a17_pro_starlight_landscape",
           "screenRect": {
-            "x": 0.038,
-            "y": 0.028,
-            "width": 0.924,
-            "height": 0.944
+            "x": 0.049686274509803924,
+            "y": 0.07602247191011235,
+            "width": 0.9006274509803922,
+            "height": 0.8479550561797753
           }
         },
         "portrait": {
           "imageName": "ipad_mini_a17_pro_starlight_portrait",
           "screenRect": {
-            "x": 0.038,
-            "y": 0.028,
-            "width": 0.924,
-            "height": 0.944
+            "x": 0.07602247191011235,
+            "y": 0.049686274509803924,
+            "width": 0.8479550561797753,
+            "height": 0.9006274509803922
           }
         }
       },
@@ -339,19 +339,19 @@
         "portrait": {
           "imageName": "ipad_mini_a17_pro_blue_portrait",
           "screenRect": {
-            "x": 0.038,
-            "y": 0.028,
-            "width": 0.924,
-            "height": 0.944
+            "x": 0.07602247191011235,
+            "y": 0.049686274509803924,
+            "width": 0.8479550561797753,
+            "height": 0.9006274509803922
           }
         },
         "landscape": {
           "imageName": "ipad_mini_a17_pro_blue_landscape",
           "screenRect": {
-            "x": 0.038,
-            "y": 0.028,
-            "width": 0.924,
-            "height": 0.944
+            "x": 0.049686274509803924,
+            "y": 0.07602247191011235,
+            "width": 0.9006274509803922,
+            "height": 0.8479550561797753
           }
         }
       }
@@ -361,19 +361,19 @@
         "portrait": {
           "imageName": "ipad_air_11_m4_space_gray_portrait",
           "screenRect": {
-            "x": 0.038,
-            "y": 0.028,
-            "width": 0.924,
-            "height": 0.944
+            "x": 0.062421052631578954,
+            "y": 0.043618320610687024,
+            "width": 0.8751578947368421,
+            "height": 0.912381679389313
           }
         },
         "landscape": {
           "imageName": "ipad_air_11_m4_space_gray_landscape",
           "screenRect": {
-            "x": 0.038,
-            "y": 0.028,
-            "width": 0.924,
-            "height": 0.944
+            "x": 0.044000000000000004,
+            "y": 0.062421052631578954,
+            "width": 0.912,
+            "height": 0.8751578947368421
           }
         }
       },
@@ -381,19 +381,19 @@
         "landscape": {
           "imageName": "ipad_air_11_m4_starlight_landscape",
           "screenRect": {
-            "x": 0.038,
-            "y": 0.028,
-            "width": 0.924,
-            "height": 0.944
+            "x": 0.044000000000000004,
+            "y": 0.062421052631578954,
+            "width": 0.912,
+            "height": 0.8751578947368421
           }
         },
         "portrait": {
           "imageName": "ipad_air_11_m4_starlight_portrait",
           "screenRect": {
-            "x": 0.038,
-            "y": 0.028,
-            "width": 0.924,
-            "height": 0.944
+            "x": 0.062421052631578954,
+            "y": 0.043618320610687024,
+            "width": 0.8751578947368421,
+            "height": 0.912381679389313
           }
         }
       },
@@ -401,19 +401,19 @@
         "landscape": {
           "imageName": "ipad_air_11_m4_purple_landscape",
           "screenRect": {
-            "x": 0.038,
-            "y": 0.028,
-            "width": 0.924,
-            "height": 0.944
+            "x": 0.044000000000000004,
+            "y": 0.062421052631578954,
+            "width": 0.912,
+            "height": 0.8751578947368421
           }
         },
         "portrait": {
           "imageName": "ipad_air_11_m4_purple_portrait",
           "screenRect": {
-            "x": 0.038,
-            "y": 0.028,
-            "width": 0.924,
-            "height": 0.944
+            "x": 0.062421052631578954,
+            "y": 0.043618320610687024,
+            "width": 0.8751578947368421,
+            "height": 0.912381679389313
           }
         }
       },
@@ -421,19 +421,19 @@
         "landscape": {
           "imageName": "ipad_air_11_m4_blue_landscape",
           "screenRect": {
-            "x": 0.038,
-            "y": 0.028,
-            "width": 0.924,
-            "height": 0.944
+            "x": 0.044000000000000004,
+            "y": 0.062421052631578954,
+            "width": 0.912,
+            "height": 0.8751578947368421
           }
         },
         "portrait": {
           "imageName": "ipad_air_11_m4_blue_portrait",
           "screenRect": {
-            "x": 0.038,
-            "y": 0.028,
-            "width": 0.924,
-            "height": 0.944
+            "x": 0.062421052631578954,
+            "y": 0.043618320610687024,
+            "width": 0.8751578947368421,
+            "height": 0.912381679389313
           }
         }
       }
@@ -443,19 +443,19 @@
         "landscape": {
           "imageName": "ipad_air_13_m4_starlight_landscape",
           "screenRect": {
-            "x": 0.038,
-            "y": 0.028,
-            "width": 0.924,
-            "height": 0.944
+            "x": 0.03561073825503356,
+            "y": 0.04878260869565217,
+            "width": 0.928778523489933,
+            "height": 0.9024347826086957
           }
         },
         "portrait": {
           "imageName": "ipad_air_13_m4_starlight_portrait",
           "screenRect": {
-            "x": 0.038,
-            "y": 0.028,
-            "width": 0.924,
-            "height": 0.944
+            "x": 0.04878260869565217,
+            "y": 0.03561073825503356,
+            "width": 0.9024347826086957,
+            "height": 0.928778523489933
           }
         }
       },
@@ -463,19 +463,19 @@
         "portrait": {
           "imageName": "ipad_air_13_m4_space_gray_portrait",
           "screenRect": {
-            "x": 0.038,
-            "y": 0.028,
-            "width": 0.924,
-            "height": 0.944
+            "x": 0.04878260869565217,
+            "y": 0.03561073825503356,
+            "width": 0.9024347826086957,
+            "height": 0.928778523489933
           }
         },
         "landscape": {
           "imageName": "ipad_air_13_m4_space_gray_landscape",
           "screenRect": {
-            "x": 0.038,
-            "y": 0.028,
-            "width": 0.924,
-            "height": 0.944
+            "x": 0.03561073825503356,
+            "y": 0.04878260869565217,
+            "width": 0.928778523489933,
+            "height": 0.9024347826086957
           }
         }
       },
@@ -483,19 +483,19 @@
         "landscape": {
           "imageName": "ipad_air_13_m4_blue_landscape",
           "screenRect": {
-            "x": 0.038,
-            "y": 0.028,
-            "width": 0.924,
-            "height": 0.944
+            "x": 0.03561073825503356,
+            "y": 0.04878260869565217,
+            "width": 0.928778523489933,
+            "height": 0.9024347826086957
           }
         },
         "portrait": {
           "imageName": "ipad_air_13_m4_blue_portrait",
           "screenRect": {
-            "x": 0.038,
-            "y": 0.028,
-            "width": 0.924,
-            "height": 0.944
+            "x": 0.04878260869565217,
+            "y": 0.03561073825503356,
+            "width": 0.9024347826086957,
+            "height": 0.928778523489933
           }
         }
       },
@@ -503,19 +503,19 @@
         "landscape": {
           "imageName": "ipad_air_13_m4_purple_landscape",
           "screenRect": {
-            "x": 0.038,
-            "y": 0.028,
-            "width": 0.924,
-            "height": 0.944
+            "x": 0.03561073825503356,
+            "y": 0.04878260869565217,
+            "width": 0.928778523489933,
+            "height": 0.9024347826086957
           }
         },
         "portrait": {
           "imageName": "ipad_air_13_m4_purple_portrait",
           "screenRect": {
-            "x": 0.038,
-            "y": 0.028,
-            "width": 0.924,
-            "height": 0.944
+            "x": 0.04878260869565217,
+            "y": 0.03561073825503356,
+            "width": 0.9024347826086957,
+            "height": 0.928778523489933
           }
         }
       }
@@ -525,19 +525,19 @@
         "landscape": {
           "imageName": "ipad_pro_m5_11_silver_landscape",
           "screenRect": {
-            "x": 0.038,
-            "y": 0.028,
-            "width": 0.924,
-            "height": 0.944
+            "x": 0.035666666666666666,
+            "y": 0.050382978723404255,
+            "width": 0.9286666666666666,
+            "height": 0.8992340425531915
           }
         },
         "portrait": {
           "imageName": "ipad_pro_m5_11_silver_portrait",
           "screenRect": {
-            "x": 0.038,
-            "y": 0.028,
-            "width": 0.924,
-            "height": 0.944
+            "x": 0.050382978723404255,
+            "y": 0.035666666666666666,
+            "width": 0.8992340425531915,
+            "height": 0.9286666666666666
           }
         }
       },
@@ -545,19 +545,19 @@
         "landscape": {
           "imageName": "ipad_pro_m5_11_space_black_landscape",
           "screenRect": {
-            "x": 0.038,
-            "y": 0.028,
-            "width": 0.924,
-            "height": 0.944
+            "x": 0.035666666666666666,
+            "y": 0.050382978723404255,
+            "width": 0.9286666666666666,
+            "height": 0.8992340425531915
           }
         },
         "portrait": {
           "imageName": "ipad_pro_m5_11_space_black_portrait",
           "screenRect": {
-            "x": 0.038,
-            "y": 0.028,
-            "width": 0.924,
-            "height": 0.944
+            "x": 0.050382978723404255,
+            "y": 0.035666666666666666,
+            "width": 0.8992340425531915,
+            "height": 0.9286666666666666
           }
         }
       }
@@ -567,19 +567,19 @@
         "landscape": {
           "imageName": "ipad_pro_m5_13_silver_landscape",
           "screenRect": {
-            "x": 0.038,
-            "y": 0.028,
-            "width": 0.924,
-            "height": 0.944
+            "x": 0.035333333333333335,
+            "y": 0.04530434782608696,
+            "width": 0.9293333333333333,
+            "height": 0.9093913043478261
           }
         },
         "portrait": {
           "imageName": "ipad_pro_m5_13_silver_portrait",
           "screenRect": {
-            "x": 0.038,
-            "y": 0.028,
-            "width": 0.924,
-            "height": 0.944
+            "x": 0.04530434782608696,
+            "y": 0.035333333333333335,
+            "width": 0.9093913043478261,
+            "height": 0.9293333333333333
           }
         }
       },
@@ -587,19 +587,19 @@
         "landscape": {
           "imageName": "ipad_pro_m5_13_space_black_landscape",
           "screenRect": {
-            "x": 0.038,
-            "y": 0.028,
-            "width": 0.924,
-            "height": 0.944
+            "x": 0.035333333333333335,
+            "y": 0.04530434782608696,
+            "width": 0.9293333333333333,
+            "height": 0.9093913043478261
           }
         },
         "portrait": {
           "imageName": "ipad_pro_m5_13_space_black_portrait",
           "screenRect": {
-            "x": 0.038,
-            "y": 0.028,
-            "width": 0.924,
-            "height": 0.944
+            "x": 0.04530434782608696,
+            "y": 0.035333333333333335,
+            "width": 0.9093913043478261,
+            "height": 0.9293333333333333
           }
         }
       }
@@ -611,10 +611,10 @@
         "portrait": {
           "imageName": "apple_watch_series_11_2025_46mm_portrait",
           "screenRect": {
-            "x": 0.088,
-            "y": 0.205,
-            "width": 0.824,
-            "height": 0.59
+            "x": 0.12257142857142855,
+            "y": 0.21218181818181817,
+            "width": 0.7548571428571429,
+            "height": 0.5756363636363636
           }
         }
       },
@@ -622,10 +622,10 @@
         "portrait": {
           "imageName": "apple_watch_series_11_2025_42mm_portrait",
           "screenRect": {
-            "x": 0.088,
-            "y": 0.205,
-            "width": 0.824,
-            "height": 0.59
+            "x": 0.13438461538461538,
+            "y": 0.21525,
+            "width": 0.7312307692307692,
+            "height": 0.5695
           }
         }
       }
@@ -635,10 +635,10 @@
         "portrait": {
           "imageName": "apple_watch_ultra_3_black_ocean_band_anchor_blue_portrait",
           "screenRect": {
-            "x": 0.088,
-            "y": 0.205,
-            "width": 0.824,
-            "height": 0.59
+            "x": 0.14233333333333334,
+            "y": 0.22629166666666667,
+            "width": 0.7153333333333334,
+            "height": 0.5474166666666667
           }
         }
       },
@@ -646,10 +646,10 @@
         "portrait": {
           "imageName": "apple_watch_ultra_3_natural_ocean_band_anchor_blue_portrait",
           "screenRect": {
-            "x": 0.088,
-            "y": 0.205,
-            "width": 0.824,
-            "height": 0.59
+            "x": 0.14233333333333334,
+            "y": 0.22629166666666667,
+            "width": 0.7153333333333334,
+            "height": 0.5474166666666667
           }
         }
       },
@@ -657,10 +657,10 @@
         "portrait": {
           "imageName": "apple_watch_ultra_3_natural_ocean_band_neon_green_portrait",
           "screenRect": {
-            "x": 0.088,
-            "y": 0.205,
-            "width": 0.824,
-            "height": 0.59
+            "x": 0.14233333333333334,
+            "y": 0.22629166666666667,
+            "width": 0.7153333333333334,
+            "height": 0.5474166666666667
           }
         }
       },
@@ -668,10 +668,10 @@
         "portrait": {
           "imageName": "apple_watch_ultra_3_black_ocean_band_black_portrait",
           "screenRect": {
-            "x": 0.088,
-            "y": 0.205,
-            "width": 0.824,
-            "height": 0.59
+            "x": 0.14233333333333334,
+            "y": 0.22629166666666667,
+            "width": 0.7153333333333334,
+            "height": 0.5474166666666667
           }
         }
       },
@@ -679,10 +679,10 @@
         "portrait": {
           "imageName": "apple_watch_ultra_3_natural_milanese_loop_portrait",
           "screenRect": {
-            "x": 0.088,
-            "y": 0.205,
-            "width": 0.824,
-            "height": 0.59
+            "x": 0.14233333333333334,
+            "y": 0.22629166666666667,
+            "width": 0.7153333333333334,
+            "height": 0.5474166666666667
           }
         }
       },
@@ -690,10 +690,10 @@
         "portrait": {
           "imageName": "apple_watch_ultra_3_black_milanese_loop_portrait",
           "screenRect": {
-            "x": 0.088,
-            "y": 0.205,
-            "width": 0.824,
-            "height": 0.59
+            "x": 0.14233333333333334,
+            "y": 0.22629166666666667,
+            "width": 0.7153333333333334,
+            "height": 0.5474166666666667
           }
         }
       },
@@ -701,10 +701,10 @@
         "portrait": {
           "imageName": "apple_watch_ultra_3_black_alpine_loop_black_portrait",
           "screenRect": {
-            "x": 0.088,
-            "y": 0.205,
-            "width": 0.824,
-            "height": 0.59
+            "x": 0.14233333333333334,
+            "y": 0.22629166666666667,
+            "width": 0.7153333333333334,
+            "height": 0.5474166666666667
           }
         }
       },
@@ -712,10 +712,10 @@
         "portrait": {
           "imageName": "apple_watch_ultra_3_natural_alpine_loop_light_blue_portrait",
           "screenRect": {
-            "x": 0.088,
-            "y": 0.205,
-            "width": 0.824,
-            "height": 0.59
+            "x": 0.14233333333333334,
+            "y": 0.22629166666666667,
+            "width": 0.7153333333333334,
+            "height": 0.5474166666666667
           }
         }
       },
@@ -723,10 +723,10 @@
         "portrait": {
           "imageName": "apple_watch_ultra_3_natural_alpine_loop_terra_cotta_portrait",
           "screenRect": {
-            "x": 0.088,
-            "y": 0.205,
-            "width": 0.824,
-            "height": 0.59
+            "x": 0.14233333333333334,
+            "y": 0.22629166666666667,
+            "width": 0.7153333333333334,
+            "height": 0.5474166666666667
           }
         }
       },
@@ -734,10 +734,10 @@
         "portrait": {
           "imageName": "apple_watch_ultra_3_black_alpine_loop_light_blue_portrait",
           "screenRect": {
-            "x": 0.088,
-            "y": 0.205,
-            "width": 0.824,
-            "height": 0.59
+            "x": 0.14233333333333334,
+            "y": 0.22629166666666667,
+            "width": 0.7153333333333334,
+            "height": 0.5474166666666667
           }
         }
       },
@@ -745,10 +745,10 @@
         "portrait": {
           "imageName": "apple_watch_ultra_3_black_trail_loop_black_charcoal_portrait",
           "screenRect": {
-            "x": 0.088,
-            "y": 0.205,
-            "width": 0.824,
-            "height": 0.59
+            "x": 0.14233333333333334,
+            "y": 0.22629166666666667,
+            "width": 0.7153333333333334,
+            "height": 0.5474166666666667
           }
         }
       },
@@ -756,10 +756,10 @@
         "portrait": {
           "imageName": "apple_watch_ultra_3_natural_trail_loop_blue_bright_blue_portrait",
           "screenRect": {
-            "x": 0.088,
-            "y": 0.205,
-            "width": 0.824,
-            "height": 0.59
+            "x": 0.14233333333333334,
+            "y": 0.22629166666666667,
+            "width": 0.7153333333333334,
+            "height": 0.5474166666666667
           }
         }
       },
@@ -767,10 +767,10 @@
         "portrait": {
           "imageName": "apple_watch_ultra_3_natural_trail_loop_green_neon_portrait",
           "screenRect": {
-            "x": 0.088,
-            "y": 0.205,
-            "width": 0.824,
-            "height": 0.59
+            "x": 0.14233333333333334,
+            "y": 0.22629166666666667,
+            "width": 0.7153333333333334,
+            "height": 0.5474166666666667
           }
         }
       }
@@ -782,19 +782,19 @@
         "portrait": {
           "imageName": "iphone_17_pro_max_cosmic_orange_portrait",
           "screenRect": {
-            "x": 0.045,
+            "x": 0.04502040816326531,
             "y": 0.018,
-            "width": 0.91,
+            "width": 0.9099591836734694,
             "height": 0.964
           }
         },
         "landscape": {
           "imageName": "iphone_17_pro_max_cosmic_orange_landscape",
           "screenRect": {
-            "x": 0.045,
-            "y": 0.018,
-            "width": 0.91,
-            "height": 0.964
+            "x": 0.018,
+            "y": 0.04502040816326531,
+            "width": 0.964,
+            "height": 0.9099591836734694
           }
         }
       },
@@ -802,18 +802,18 @@
         "landscape": {
           "imageName": "iphone_17_pro_max_deep_blue_landscape",
           "screenRect": {
-            "x": 0.045,
-            "y": 0.018,
-            "width": 0.91,
-            "height": 0.964
+            "x": 0.018,
+            "y": 0.04502040816326531,
+            "width": 0.964,
+            "height": 0.9099591836734694
           }
         },
         "portrait": {
           "imageName": "iphone_17_pro_max_deep_blue_portrait",
           "screenRect": {
-            "x": 0.045,
+            "x": 0.04502040816326531,
             "y": 0.018,
-            "width": 0.91,
+            "width": 0.9099591836734694,
             "height": 0.964
           }
         }
@@ -822,19 +822,19 @@
         "portrait": {
           "imageName": "iphone_17_pro_max_silver_portrait",
           "screenRect": {
-            "x": 0.045,
+            "x": 0.04502040816326531,
             "y": 0.018,
-            "width": 0.91,
+            "width": 0.9099591836734694,
             "height": 0.964
           }
         },
         "landscape": {
           "imageName": "iphone_17_pro_max_silver_landscape",
           "screenRect": {
-            "x": 0.045,
-            "y": 0.018,
-            "width": 0.91,
-            "height": 0.964
+            "x": 0.018,
+            "y": 0.04502040816326531,
+            "width": 0.964,
+            "height": 0.9099591836734694
           }
         }
       }
@@ -844,18 +844,18 @@
         "landscape": {
           "imageName": "iphone_17_pro_silver_landscape",
           "screenRect": {
-            "x": 0.045,
-            "y": 0.018,
-            "width": 0.91,
-            "height": 0.964
+            "x": 0.018,
+            "y": 0.04733333333333334,
+            "width": 0.964,
+            "height": 0.9053333333333333
           }
         },
         "portrait": {
           "imageName": "iphone_17_pro_silver_portrait",
           "screenRect": {
-            "x": 0.045,
+            "x": 0.04733333333333334,
             "y": 0.018,
-            "width": 0.91,
+            "width": 0.9053333333333333,
             "height": 0.964
           }
         }
@@ -864,18 +864,18 @@
         "landscape": {
           "imageName": "iphone_17_pro_deep_blue_landscape",
           "screenRect": {
-            "x": 0.045,
-            "y": 0.018,
-            "width": 0.91,
-            "height": 0.964
+            "x": 0.018,
+            "y": 0.04733333333333334,
+            "width": 0.964,
+            "height": 0.9053333333333333
           }
         },
         "portrait": {
           "imageName": "iphone_17_pro_deep_blue_portrait",
           "screenRect": {
-            "x": 0.045,
+            "x": 0.04733333333333334,
             "y": 0.018,
-            "width": 0.91,
+            "width": 0.9053333333333333,
             "height": 0.964
           }
         }
@@ -884,19 +884,19 @@
         "portrait": {
           "imageName": "iphone_17_pro_cosmic_orange_portrait",
           "screenRect": {
-            "x": 0.045,
+            "x": 0.04733333333333334,
             "y": 0.018,
-            "width": 0.91,
+            "width": 0.9053333333333333,
             "height": 0.964
           }
         },
         "landscape": {
           "imageName": "iphone_17_pro_cosmic_orange_landscape",
           "screenRect": {
-            "x": 0.045,
-            "y": 0.018,
-            "width": 0.91,
-            "height": 0.964
+            "x": 0.018,
+            "y": 0.04733333333333334,
+            "width": 0.964,
+            "height": 0.9053333333333333
           }
         }
       }
@@ -906,18 +906,18 @@
         "landscape": {
           "imageName": "iphone_17_mist_blue_landscape",
           "screenRect": {
-            "x": 0.045,
-            "y": 0.018,
-            "width": 0.91,
-            "height": 0.964
+            "x": 0.018,
+            "y": 0.04733333333333334,
+            "width": 0.964,
+            "height": 0.9053333333333333
           }
         },
         "portrait": {
           "imageName": "iphone_17_mist_blue_portrait",
           "screenRect": {
-            "x": 0.045,
+            "x": 0.04733333333333334,
             "y": 0.018,
-            "width": 0.91,
+            "width": 0.9053333333333333,
             "height": 0.964
           }
         }
@@ -926,18 +926,18 @@
         "landscape": {
           "imageName": "iphone_17_black_landscape",
           "screenRect": {
-            "x": 0.045,
-            "y": 0.018,
-            "width": 0.91,
-            "height": 0.964
+            "x": 0.018,
+            "y": 0.04733333333333334,
+            "width": 0.964,
+            "height": 0.9053333333333333
           }
         },
         "portrait": {
           "imageName": "iphone_17_black_portrait",
           "screenRect": {
-            "x": 0.045,
+            "x": 0.04733333333333334,
             "y": 0.018,
-            "width": 0.91,
+            "width": 0.9053333333333333,
             "height": 0.964
           }
         }
@@ -946,19 +946,19 @@
         "portrait": {
           "imageName": "iphone_17_white_portrait",
           "screenRect": {
-            "x": 0.045,
+            "x": 0.04733333333333334,
             "y": 0.018,
-            "width": 0.91,
+            "width": 0.9053333333333333,
             "height": 0.964
           }
         },
         "landscape": {
           "imageName": "iphone_17_white_landscape",
           "screenRect": {
-            "x": 0.045,
-            "y": 0.018,
-            "width": 0.91,
-            "height": 0.964
+            "x": 0.018,
+            "y": 0.04733333333333334,
+            "width": 0.964,
+            "height": 0.9053333333333333
           }
         }
       },
@@ -966,18 +966,18 @@
         "landscape": {
           "imageName": "iphone_17_lavender_landscape",
           "screenRect": {
-            "x": 0.045,
-            "y": 0.018,
-            "width": 0.91,
-            "height": 0.964
+            "x": 0.018,
+            "y": 0.04733333333333334,
+            "width": 0.964,
+            "height": 0.9053333333333333
           }
         },
         "portrait": {
           "imageName": "iphone_17_lavender_portrait",
           "screenRect": {
-            "x": 0.045,
+            "x": 0.04733333333333334,
             "y": 0.018,
-            "width": 0.91,
+            "width": 0.9053333333333333,
             "height": 0.964
           }
         }
@@ -986,18 +986,18 @@
         "landscape": {
           "imageName": "iphone_17_sage_landscape",
           "screenRect": {
-            "x": 0.045,
-            "y": 0.018,
-            "width": 0.91,
-            "height": 0.964
+            "x": 0.018,
+            "y": 0.04733333333333334,
+            "width": 0.964,
+            "height": 0.9053333333333333
           }
         },
         "portrait": {
           "imageName": "iphone_17_sage_portrait",
           "screenRect": {
-            "x": 0.045,
+            "x": 0.04733333333333334,
             "y": 0.018,
-            "width": 0.91,
+            "width": 0.9053333333333333,
             "height": 0.964
           }
         }
@@ -1008,19 +1008,19 @@
         "portrait": {
           "imageName": "iphone_air_cloud_white_portrait",
           "screenRect": {
-            "x": 0.045,
+            "x": 0.03747826086956522,
             "y": 0.018,
-            "width": 0.91,
+            "width": 0.9250434782608695,
             "height": 0.964
           }
         },
         "landscape": {
           "imageName": "iphone_air_cloud_white_landscape",
           "screenRect": {
-            "x": 0.045,
-            "y": 0.018,
-            "width": 0.91,
-            "height": 0.964
+            "x": 0.018,
+            "y": 0.03747826086956522,
+            "width": 0.964,
+            "height": 0.9250434782608695
           }
         }
       },
@@ -1028,18 +1028,18 @@
         "landscape": {
           "imageName": "iphone_air_sky_blue_landscape",
           "screenRect": {
-            "x": 0.045,
-            "y": 0.018,
-            "width": 0.91,
-            "height": 0.964
+            "x": 0.018,
+            "y": 0.03747826086956522,
+            "width": 0.964,
+            "height": 0.9250434782608695
           }
         },
         "portrait": {
           "imageName": "iphone_air_sky_blue_portrait",
           "screenRect": {
-            "x": 0.045,
+            "x": 0.03747826086956522,
             "y": 0.018,
-            "width": 0.91,
+            "width": 0.9250434782608695,
             "height": 0.964
           }
         }
@@ -1048,18 +1048,18 @@
         "landscape": {
           "imageName": "iphone_air_light_gold_landscape",
           "screenRect": {
-            "x": 0.045,
-            "y": 0.018,
-            "width": 0.91,
-            "height": 0.964
+            "x": 0.018,
+            "y": 0.03747826086956522,
+            "width": 0.964,
+            "height": 0.9250434782608695
           }
         },
         "portrait": {
           "imageName": "iphone_air_light_gold_portrait",
           "screenRect": {
-            "x": 0.045,
+            "x": 0.03747826086956522,
             "y": 0.018,
-            "width": 0.91,
+            "width": 0.9250434782608695,
             "height": 0.964
           }
         }
@@ -1068,18 +1068,18 @@
         "landscape": {
           "imageName": "iphone_air_space_black_landscape",
           "screenRect": {
-            "x": 0.045,
-            "y": 0.018,
-            "width": 0.91,
-            "height": 0.964
+            "x": 0.018,
+            "y": 0.03747826086956522,
+            "width": 0.964,
+            "height": 0.9250434782608695
           }
         },
         "portrait": {
           "imageName": "iphone_air_space_black_portrait",
           "screenRect": {
-            "x": 0.045,
+            "x": 0.03747826086956522,
             "y": 0.018,
-            "width": 0.91,
+            "width": 0.9250434782608695,
             "height": 0.964
           }
         }
@@ -1090,19 +1090,19 @@
         "portrait": {
           "imageName": "iphone_16_pro_max_natural_titanium_portrait",
           "screenRect": {
-            "x": 0.045,
+            "x": 0.04502040816326531,
             "y": 0.018,
-            "width": 0.91,
+            "width": 0.9099591836734694,
             "height": 0.964
           }
         },
         "landscape": {
           "imageName": "iphone_16_pro_max_natural_titanium_landscape",
           "screenRect": {
-            "x": 0.045,
-            "y": 0.018,
-            "width": 0.91,
-            "height": 0.964
+            "x": 0.018,
+            "y": 0.04502040816326531,
+            "width": 0.964,
+            "height": 0.9099591836734694
           }
         }
       },
@@ -1110,18 +1110,18 @@
         "landscape": {
           "imageName": "iphone_16_pro_max_white_titanium_landscape",
           "screenRect": {
-            "x": 0.045,
-            "y": 0.018,
-            "width": 0.91,
-            "height": 0.964
+            "x": 0.018,
+            "y": 0.04502040816326531,
+            "width": 0.964,
+            "height": 0.9099591836734694
           }
         },
         "portrait": {
           "imageName": "iphone_16_pro_max_white_titanium_portrait",
           "screenRect": {
-            "x": 0.045,
+            "x": 0.04502040816326531,
             "y": 0.018,
-            "width": 0.91,
+            "width": 0.9099591836734694,
             "height": 0.964
           }
         }
@@ -1130,18 +1130,18 @@
         "landscape": {
           "imageName": "iphone_16_pro_max_black_titanium_landscape",
           "screenRect": {
-            "x": 0.045,
-            "y": 0.018,
-            "width": 0.91,
-            "height": 0.964
+            "x": 0.018,
+            "y": 0.04502040816326531,
+            "width": 0.964,
+            "height": 0.9099591836734694
           }
         },
         "portrait": {
           "imageName": "iphone_16_pro_max_black_titanium_portrait",
           "screenRect": {
-            "x": 0.045,
+            "x": 0.04502040816326531,
             "y": 0.018,
-            "width": 0.91,
+            "width": 0.9099591836734694,
             "height": 0.964
           }
         }
@@ -1150,18 +1150,18 @@
         "landscape": {
           "imageName": "iphone_16_pro_max_desert_titanium_landscape",
           "screenRect": {
-            "x": 0.045,
-            "y": 0.018,
-            "width": 0.91,
-            "height": 0.964
+            "x": 0.018,
+            "y": 0.04502040816326531,
+            "width": 0.964,
+            "height": 0.9099591836734694
           }
         },
         "portrait": {
           "imageName": "iphone_16_pro_max_desert_titanium_portrait",
           "screenRect": {
-            "x": 0.045,
+            "x": 0.04502040816326531,
             "y": 0.018,
-            "width": 0.91,
+            "width": 0.9099591836734694,
             "height": 0.964
           }
         }
@@ -1172,19 +1172,19 @@
         "portrait": {
           "imageName": "iphone_16_pro_natural_titanium_portrait",
           "screenRect": {
-            "x": 0.045,
+            "x": 0.04733333333333334,
             "y": 0.018,
-            "width": 0.91,
+            "width": 0.9053333333333333,
             "height": 0.964
           }
         },
         "landscape": {
           "imageName": "iphone_16_pro_natural_titanium_landscape",
           "screenRect": {
-            "x": 0.045,
-            "y": 0.018,
-            "width": 0.91,
-            "height": 0.964
+            "x": 0.018,
+            "y": 0.04733333333333334,
+            "width": 0.964,
+            "height": 0.9053333333333333
           }
         }
       },
@@ -1192,19 +1192,19 @@
         "portrait": {
           "imageName": "iphone_16_pro_desert_titanium_portrait",
           "screenRect": {
-            "x": 0.045,
+            "x": 0.04733333333333334,
             "y": 0.018,
-            "width": 0.91,
+            "width": 0.9053333333333333,
             "height": 0.964
           }
         },
         "landscape": {
           "imageName": "iphone_16_pro_desert_titanium_landscape",
           "screenRect": {
-            "x": 0.045,
-            "y": 0.018,
-            "width": 0.91,
-            "height": 0.964
+            "x": 0.018,
+            "y": 0.04733333333333334,
+            "width": 0.964,
+            "height": 0.9053333333333333
           }
         }
       },
@@ -1212,19 +1212,19 @@
         "portrait": {
           "imageName": "iphone_16_pro_white_titanium_portrait",
           "screenRect": {
-            "x": 0.045,
+            "x": 0.04733333333333334,
             "y": 0.018,
-            "width": 0.91,
+            "width": 0.9053333333333333,
             "height": 0.964
           }
         },
         "landscape": {
           "imageName": "iphone_16_pro_white_titanium_landscape",
           "screenRect": {
-            "x": 0.045,
-            "y": 0.018,
-            "width": 0.91,
-            "height": 0.964
+            "x": 0.018,
+            "y": 0.04733333333333334,
+            "width": 0.964,
+            "height": 0.9053333333333333
           }
         }
       },
@@ -1232,19 +1232,19 @@
         "portrait": {
           "imageName": "iphone_16_pro_black_titanium_portrait",
           "screenRect": {
-            "x": 0.045,
+            "x": 0.04733333333333334,
             "y": 0.018,
-            "width": 0.91,
+            "width": 0.9053333333333333,
             "height": 0.964
           }
         },
         "landscape": {
           "imageName": "iphone_16_pro_black_titanium_landscape",
           "screenRect": {
-            "x": 0.045,
-            "y": 0.018,
-            "width": 0.91,
-            "height": 0.964
+            "x": 0.018,
+            "y": 0.04733333333333334,
+            "width": 0.964,
+            "height": 0.9053333333333333
           }
         }
       }
@@ -1254,19 +1254,19 @@
         "portrait": {
           "imageName": "iphone_16_white_portrait",
           "screenRect": {
-            "x": 0.045,
+            "x": 0.060225165562913914,
             "y": 0.018,
-            "width": 0.91,
+            "width": 0.8795496688741722,
             "height": 0.964
           }
         },
         "landscape": {
           "imageName": "iphone_16_white_landscape",
           "screenRect": {
-            "x": 0.045,
-            "y": 0.018,
-            "width": 0.91,
-            "height": 0.964
+            "x": 0.018,
+            "y": 0.060225165562913914,
+            "width": 0.964,
+            "height": 0.8795496688741722
           }
         }
       },
@@ -1274,19 +1274,19 @@
         "portrait": {
           "imageName": "iphone_16_teal_portrait",
           "screenRect": {
-            "x": 0.045,
+            "x": 0.060225165562913914,
             "y": 0.018,
-            "width": 0.91,
+            "width": 0.8795496688741722,
             "height": 0.964
           }
         },
         "landscape": {
           "imageName": "iphone_16_teal_landscape",
           "screenRect": {
-            "x": 0.045,
-            "y": 0.018,
-            "width": 0.91,
-            "height": 0.964
+            "x": 0.018,
+            "y": 0.060225165562913914,
+            "width": 0.964,
+            "height": 0.8795496688741722
           }
         }
       },
@@ -1294,19 +1294,19 @@
         "portrait": {
           "imageName": "iphone_16_ultramarine_portrait",
           "screenRect": {
-            "x": 0.045,
+            "x": 0.060225165562913914,
             "y": 0.018,
-            "width": 0.91,
+            "width": 0.8795496688741722,
             "height": 0.964
           }
         },
         "landscape": {
           "imageName": "iphone_16_ultramarine_landscape",
           "screenRect": {
-            "x": 0.045,
-            "y": 0.018,
-            "width": 0.91,
-            "height": 0.964
+            "x": 0.018,
+            "y": 0.060225165562913914,
+            "width": 0.964,
+            "height": 0.8795496688741722
           }
         }
       },
@@ -1314,19 +1314,19 @@
         "portrait": {
           "imageName": "iphone_16_black_portrait",
           "screenRect": {
-            "x": 0.045,
+            "x": 0.060225165562913914,
             "y": 0.018,
-            "width": 0.91,
+            "width": 0.8795496688741722,
             "height": 0.964
           }
         },
         "landscape": {
           "imageName": "iphone_16_black_landscape",
           "screenRect": {
-            "x": 0.045,
-            "y": 0.018,
-            "width": 0.91,
-            "height": 0.964
+            "x": 0.018,
+            "y": 0.060225165562913914,
+            "width": 0.964,
+            "height": 0.8795496688741722
           }
         }
       },
@@ -1334,19 +1334,19 @@
         "portrait": {
           "imageName": "iphone_16_pink_portrait",
           "screenRect": {
-            "x": 0.045,
+            "x": 0.060225165562913914,
             "y": 0.018,
-            "width": 0.91,
+            "width": 0.8795496688741722,
             "height": 0.964
           }
         },
         "landscape": {
           "imageName": "iphone_16_pink_landscape",
           "screenRect": {
-            "x": 0.045,
-            "y": 0.018,
-            "width": 0.91,
-            "height": 0.964
+            "x": 0.018,
+            "y": 0.060225165562913914,
+            "width": 0.964,
+            "height": 0.8795496688741722
           }
         }
       }
@@ -1356,18 +1356,18 @@
         "landscape": {
           "imageName": "iphone_16_plus_white_landscape",
           "screenRect": {
-            "x": 0.045,
-            "y": 0.018,
-            "width": 0.91,
-            "height": 0.964
+            "x": 0.018,
+            "y": 0.05522448979591837,
+            "width": 0.964,
+            "height": 0.8895510204081633
           }
         },
         "portrait": {
           "imageName": "iphone_16_plus_white_portrait",
           "screenRect": {
-            "x": 0.045,
+            "x": 0.05522448979591837,
             "y": 0.018,
-            "width": 0.91,
+            "width": 0.8895510204081633,
             "height": 0.964
           }
         }
@@ -1376,18 +1376,18 @@
         "landscape": {
           "imageName": "iphone_16_plus_teal_landscape",
           "screenRect": {
-            "x": 0.045,
-            "y": 0.018,
-            "width": 0.91,
-            "height": 0.964
+            "x": 0.018,
+            "y": 0.05522448979591837,
+            "width": 0.964,
+            "height": 0.8895510204081633
           }
         },
         "portrait": {
           "imageName": "iphone_16_plus_teal_portrait",
           "screenRect": {
-            "x": 0.045,
+            "x": 0.05522448979591837,
             "y": 0.018,
-            "width": 0.91,
+            "width": 0.8895510204081633,
             "height": 0.964
           }
         }
@@ -1396,18 +1396,18 @@
         "landscape": {
           "imageName": "iphone_16_plus_ultramarine_landscape",
           "screenRect": {
-            "x": 0.045,
-            "y": 0.018,
-            "width": 0.91,
-            "height": 0.964
+            "x": 0.018,
+            "y": 0.05522448979591837,
+            "width": 0.964,
+            "height": 0.8895510204081633
           }
         },
         "portrait": {
           "imageName": "iphone_16_plus_ultramarine_portrait",
           "screenRect": {
-            "x": 0.045,
+            "x": 0.05522448979591837,
             "y": 0.018,
-            "width": 0.91,
+            "width": 0.8895510204081633,
             "height": 0.964
           }
         }
@@ -1416,18 +1416,18 @@
         "landscape": {
           "imageName": "iphone_16_plus_pink_landscape",
           "screenRect": {
-            "x": 0.045,
-            "y": 0.018,
-            "width": 0.91,
-            "height": 0.964
+            "x": 0.018,
+            "y": 0.05522448979591837,
+            "width": 0.964,
+            "height": 0.8895510204081633
           }
         },
         "portrait": {
           "imageName": "iphone_16_plus_pink_portrait",
           "screenRect": {
-            "x": 0.045,
+            "x": 0.05522448979591837,
             "y": 0.018,
-            "width": 0.91,
+            "width": 0.8895510204081633,
             "height": 0.964
           }
         }
@@ -1436,19 +1436,19 @@
         "portrait": {
           "imageName": "iphone_16_plus_black_portrait",
           "screenRect": {
-            "x": 0.045,
+            "x": 0.05522448979591837,
             "y": 0.018,
-            "width": 0.91,
+            "width": 0.8895510204081633,
             "height": 0.964
           }
         },
         "landscape": {
           "imageName": "iphone_16_plus_black_landscape",
           "screenRect": {
-            "x": 0.045,
-            "y": 0.018,
-            "width": 0.91,
-            "height": 0.964
+            "x": 0.018,
+            "y": 0.05522448979591837,
+            "width": 0.964,
+            "height": 0.8895510204081633
           }
         }
       }

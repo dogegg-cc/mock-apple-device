@@ -9,7 +9,7 @@ struct DeviceMockupView: View {
     
     var body: some View {
         if let config = device.variants[color]?[orientation] {
-            DeviceFrameView(screenshot: screenshot, device: device, config: config)
+            DeviceFrameView(screenshot: screenshot, device: device, config: config, orientation: orientation)
         } else {
             MissingVariantPlaceholder(orientation: orientation)
         }
@@ -22,6 +22,7 @@ private struct DeviceFrameView: View {
     let screenshot: NSImage?
     let device: DeviceModel
     let config: VariantConfig
+    let orientation: DeviceOrientation
     
     var body: some View {
         Image(config.imageName)
@@ -38,11 +39,11 @@ private struct DeviceFrameView: View {
         let screen = config.screenRect
         let screenWidth = size.width * screen.width
         let screenHeight = size.height * screen.height
-        let cr = screenWidth * device.category.defaultCornerRadius
+        let cr = min(screenWidth, screenHeight) * device.category.defaultCornerRadius
         
         return Group {
             if let screenshot = screenshot {
-                Image(nsImage: screenshot)
+                Image(nsImage: screenshot.adjustedToOrientation(orientation))
                     .resizable()
                     .aspectRatio(contentMode: .fill)
             } else {

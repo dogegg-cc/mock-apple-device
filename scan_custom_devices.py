@@ -12,14 +12,8 @@ def install_pillow_if_needed():
         import subprocess
         subprocess.check_call([sys.executable, "-m", "pip", "install", "pillow"])
 
-def detect_screen_rect(image_path, category):
-    """
-    提供比物理屏幕尺寸稍微大 1%~2% 的“安全重叠比例” (Overlap Safety Margin)。
-    因为设备外边框图盖在截图顶层，截图稍大可以被金属边框完美压住，
-    从而达到 100% 严丝合缝的覆盖效果，绝不露底、露缝。
-    """
+def get_fallback_rect(category):
     if category == "iphone":
-        # 往外扩展 1% 以压实边缘，解决露灰边、白缝问题
         return 0.045, 0.018, 0.910, 0.964
     elif category == "ipad":
         return 0.038, 0.028, 0.924, 0.944
@@ -28,6 +22,98 @@ def detect_screen_rect(image_path, category):
     elif category == "appleWatch":
         return 0.088, 0.205, 0.824, 0.590
     return 0.1, 0.1, 0.8, 0.8
+
+def detect_screen_rect(image_path, category, orientation):
+    """
+    通过扫描图片透明区域（Alpha=0）的外包围盒，自适应计算高精度屏幕比例。
+    针对 iPhone 特殊处理：
+      - 竖屏（portrait）：Y 轴（上下）由于灵动岛干扰，统一使用标准硬编码比例 (y: 0.018, height: 0.964)；X 轴（左右）使用自适应扫描，以完美贴合超窄边框。
+      - 横屏（landscape）：X 轴（左右，此时为头尾）由于灵动岛在左侧干扰，统一使用标准硬编码比例 (x: 0.018, width: 0.964)；Y 轴（上下，此时为左右两侧）使用自适应扫描，以完美贴合侧边。
+    其他品类（iPad/Watch/Mac）正常使用全方向自动扫描。
+    """
+    try:
+        from PIL import Image
+        img = Image.open(image_path).convert("RGBA")
+        width, height = img.size
+        cx, cy = width // 2, height // 2
+        
+        # 搜寻透明的起点
+        if img.getpixel((cx, cy))[3] != 0:
+            found = False
+            for offset in range(min(width, height) // 2):
+                for dx, dy in [(-offset, 0), (offset, 0), (0, -offset), (0, offset)]:
+                    tx, ty = cx + dx, cy + dy
+                    if 0 <= tx < width and 0 <= ty < height and img.getpixel((tx, ty))[3] == 0:
+                        cx, cy = tx, ty
+                        found = True
+                        break
+                if found: break
+            if not found:
+                return get_fallback_rect(category)
+        
+        margin_x = 0.006
+        margin_y = 0.006
+        
+        # iPhone 混合定位逻辑
+        if category == "iphone":
+            if orientation == "portrait":
+                # 向左扫描
+                left = cx
+                while left > 0 and img.getpixel((left - 1, cy))[3] == 0:
+                    left -= 1
+                # 向右扫描
+                right = cx
+                while right < width - 1 and img.getpixel((right + 1, cy))[3] == 0:
+                    right += 1
+                
+                ry = 0.018
+                rh = 0.964
+                rx = max(0.0, left / width - margin_x)
+                rw = min(1.0, (right - left + 1) / width + 2 * margin_x)
+                return rx, ry, rw, rh
+            else:
+                # 向上扫描
+                top = cy
+                while top > 0 and img.getpixel((cx, top - 1))[3] == 0:
+                    top -= 1
+                # 向下扫描
+                bottom = cy
+                while bottom < height - 1 and img.getpixel((cx, bottom + 1))[3] == 0:
+                    bottom += 1
+                
+                rx = 0.018
+                rw = 0.964
+                ry = max(0.0, top / height - margin_y)
+                rh = min(1.0, (bottom - top + 1) / height + 2 * margin_y)
+                return rx, ry, rw, rh
+        
+        # 非 iPhone 设备继续进行完整的上下左右扫描
+        # 向左扫描
+        left = cx
+        while left > 0 and img.getpixel((left - 1, cy))[3] == 0:
+            left -= 1
+        # 向右扫描
+        right = cx
+        while right < width - 1 and img.getpixel((right + 1, cy))[3] == 0:
+            right += 1
+        # 向上扫描
+        top = cy
+        while top > 0 and img.getpixel((cx, top - 1))[3] == 0:
+            top -= 1
+        # 向下扫描
+        bottom = cy
+        while bottom < height - 1 and img.getpixel((cx, bottom + 1))[3] == 0:
+            bottom += 1
+            
+        rx = max(0.0, left / width - margin_x)
+        ry = max(0.0, top / height - margin_y)
+        rw = min(1.0, (right - left + 1) / width + 2 * margin_x)
+        rh = min(1.0, (bottom - top + 1) / height + 2 * margin_y)
+        
+        return rx, ry, rw, rh
+    except Exception as e:
+        print(f"Auto detect failed for {image_path}: {e}")
+        return get_fallback_rect(category)
 
 def clean_asset_name(name):
     clean = name.lower()
@@ -58,8 +144,8 @@ def main(project_dir):
             # 解析得到: 品类, 型号, 颜色/表带, 方向
             category, model, color, orientation = parse_metadata(rel_path)
             
-            # 获取当前图片贴合的相对比例
-            x, y, w, h = detect_screen_rect(abs_path, category)
+            # 获取当前图片贴合的相对比例，传入方向以使用横竖屏自适应机制
+            x, y, w, h = detect_screen_rect(abs_path, category, orientation)
             
             # 统一 asset 的名称
             asset_name = clean_asset_name(f"{model}_{color}_{orientation}")

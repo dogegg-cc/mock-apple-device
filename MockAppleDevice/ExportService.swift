@@ -9,17 +9,22 @@ enum ExportService {
     ///   - deviceImage: 设备外壳图（屏幕区域已透明）
     ///   - screenRect: 屏幕区域的相对位置与大小（0~1 比例值）
     ///   - category: 设备品类，用于确定默认圆角半径
+    ///   - orientation: 目标设备方向，用于自动摆正图片
     /// - Returns: 合成后的完整图像
     static func compositeImage(
         screenshot: NSImage,
         deviceImage: NSImage,
         screenRect: CGRect,
-        category: DeviceCategory
+        category: DeviceCategory,
+        orientation: DeviceOrientation
     ) -> NSImage {
         let deviceSize = deviceImage.size
         
         return NSImage(size: deviceSize, flipped: false) { _ in
             guard let context = NSGraphicsContext.current?.cgContext else { return false }
+            
+            // 自动摆正图片方向
+            let adjustedScreenshot = screenshot.adjustedToOrientation(orientation)
             
             // 1. 将贴图以圆角裁切贴在底层
             context.saveGState()
@@ -33,7 +38,7 @@ enum ExportService {
             )
             
             // 根据品类匹配圆角，剪裁底层截图，防止直角溢出到机身外圈
-            let cr = targetRect.width * category.defaultCornerRadius
+            let cr = min(targetRect.width, targetRect.height) * category.defaultCornerRadius
             let clipPath = CGPath(
                 roundedRect: targetRect,
                 cornerWidth: cr,
@@ -44,7 +49,7 @@ enum ExportService {
             context.clip()
             
             // 绘制截图（填充模式，确保完全覆盖）
-            if let cgScreenshot = screenshot.cgImage(forProposedRect: nil, context: nil, hints: nil) {
+            if let cgScreenshot = adjustedScreenshot.cgImage(forProposedRect: nil, context: nil, hints: nil) {
                 context.draw(cgScreenshot, in: targetRect)
             }
             context.restoreGState()
@@ -106,7 +111,8 @@ enum ExportService {
                             screenshot: item.image,
                             deviceImage: deviceImage,
                             screenRect: config.screenRect,
-                            category: device.category
+                            category: device.category,
+                            orientation: orientation
                         )
                         
                         // 写入本地 PNG 文件
