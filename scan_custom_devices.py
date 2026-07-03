@@ -287,17 +287,26 @@ def parse_metadata(rel_path):
                 
     elif category == "appleWatch":
         clean_name = filename
-        if "AW Ultra 3" in clean_name:
-            model = "Apple Watch Ultra 3"
-        elif "AW Series 11" in clean_name:
-            model = "Apple Watch Series 11"
+        parts_name = [p.strip() for p in clean_name.split(" - ")]
+        
+        base_model = parts_name[0]
+        if "AW Ultra 3" in base_model or "Ultra 3" in base_model:
+            base_model = "Apple Watch Ultra 3"
+        elif "AW Series 11" in base_model or "S11" in base_model or "Series 11" in base_model:
+            base_model = "Apple Watch Series 11"
         else:
-            model = parts[0].replace("-", " ")
+            base_model = parts[0].replace("-", " ")
             
-        if " - " in clean_name:
-            color = clean_name.split(" - ")[1].strip()
+        if len(parts_name) >= 3:
+            size = parts_name[1]
+            model = f"{base_model} {size}"
+            color = " - ".join(parts_name[2:])
+        elif len(parts_name) == 2:
+            model = base_model
+            color = parts_name[1]
         else:
-            color = clean_name
+            model = base_model
+            color = "Default"
             
     return category, model, color, orientation
 

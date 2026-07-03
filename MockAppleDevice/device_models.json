@@ -606,10 +606,10 @@
     }
   },
   "appleWatch": {
-    "Apple Watch Series 11 2025": {
-      "46mm": {
+    "Apple Watch Series 11 46mm": {
+      "Titanium Natural + Sport Band Stone Gray": {
         "portrait": {
-          "imageName": "apple_watch_series_11_2025_46mm_portrait",
+          "imageName": "apple_watch_series_11_46mm_titanium_natural_sport_band_stone_gray_portrait",
           "screenRect": {
             "x": 0.12757142857142856,
             "y": 0.21718181818181817,
@@ -618,9 +618,473 @@
           }
         }
       },
-      "42mm": {
+      "Titanium Slate + Sport Band Black": {
         "portrait": {
-          "imageName": "apple_watch_series_11_2025_42mm_portrait",
+          "imageName": "apple_watch_series_11_46mm_titanium_slate_sport_band_black_portrait",
+          "screenRect": {
+            "x": 0.12757142857142856,
+            "y": 0.21718181818181817,
+            "width": 0.7448571428571429,
+            "height": 0.5656363636363636
+          }
+        }
+      },
+      "Titanium Gold + Sport Band Purple Fog": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_46mm_titanium_gold_sport_band_purple_fog_portrait",
+          "screenRect": {
+            "x": 0.12757142857142856,
+            "y": 0.21718181818181817,
+            "width": 0.7448571428571429,
+            "height": 0.5656363636363636
+          }
+        }
+      },
+      "Aluminum Jet Black + Sport Band Black": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_46mm_aluminum_jet_black_sport_band_black_portrait",
+          "screenRect": {
+            "x": 0.12757142857142856,
+            "y": 0.21718181818181817,
+            "width": 0.7448571428571429,
+            "height": 0.5656363636363636
+          }
+        }
+      },
+      "Aluminum Space Gray + Sport Band Black": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_46mm_aluminum_space_gray_sport_band_black_portrait",
+          "screenRect": {
+            "x": 0.12757142857142856,
+            "y": 0.21718181818181817,
+            "width": 0.7448571428571429,
+            "height": 0.5656363636363636
+          }
+        }
+      },
+      "Aluminum Rose Gold + Sport Band Light Blush": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_46mm_aluminum_rose_gold_sport_band_light_blush_portrait",
+          "screenRect": {
+            "x": 0.12757142857142856,
+            "y": 0.21718181818181817,
+            "width": 0.7448571428571429,
+            "height": 0.5656363636363636
+          }
+        }
+      },
+      "Aluminum Silver + Sport Band Neon Yellow": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_46mm_aluminum_silver_sport_band_neon_yellow_portrait",
+          "screenRect": {
+            "x": 0.12757142857142856,
+            "y": 0.21718181818181817,
+            "width": 0.7448571428571429,
+            "height": 0.5656363636363636
+          }
+        }
+      },
+      "Aluminum Space Gray + Sport Band Anchor Blue": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_46mm_aluminum_space_gray_sport_band_anchor_blue_portrait",
+          "screenRect": {
+            "x": 0.12757142857142856,
+            "y": 0.21718181818181817,
+            "width": 0.7448571428571429,
+            "height": 0.5656363636363636
+          }
+        }
+      },
+      "Aluminum Silver + Sport Band Purple Fog": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_46mm_aluminum_silver_sport_band_purple_fog_portrait",
+          "screenRect": {
+            "x": 0.12757142857142856,
+            "y": 0.21718181818181817,
+            "width": 0.7448571428571429,
+            "height": 0.5656363636363636
+          }
+        }
+      },
+      "Titanium Gold + Sport Band Light Blush": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_46mm_titanium_gold_sport_band_light_blush_portrait",
+          "screenRect": {
+            "x": 0.12757142857142856,
+            "y": 0.21718181818181817,
+            "width": 0.7448571428571429,
+            "height": 0.5656363636363636
+          }
+        }
+      },
+      "Titanium Slate + Milanese Loop": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_46mm_titanium_slate_milanese_loop_portrait",
+          "screenRect": {
+            "x": 0.12757142857142856,
+            "y": 0.21718181818181817,
+            "width": 0.7448571428571429,
+            "height": 0.5656363636363636
+          }
+        }
+      },
+      "Titanium Natural + Milanese Loop": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_46mm_titanium_natural_milanese_loop_portrait",
+          "screenRect": {
+            "x": 0.12757142857142856,
+            "y": 0.21718181818181817,
+            "width": 0.7448571428571429,
+            "height": 0.5656363636363636
+          }
+        }
+      },
+      "Titanium Gold + Milanese Loop": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_46mm_titanium_gold_milanese_loop_portrait",
+          "screenRect": {
+            "x": 0.12757142857142856,
+            "y": 0.21718181818181817,
+            "width": 0.7448571428571429,
+            "height": 0.5656363636363636
+          }
+        }
+      },
+      "Titanium Gold + Magnetic Link Sage Gray": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_46mm_titanium_gold_magnetic_link_sage_gray_portrait",
+          "screenRect": {
+            "x": 0.12757142857142856,
+            "y": 0.21718181818181817,
+            "width": 0.7448571428571429,
+            "height": 0.5656363636363636
+          }
+        }
+      },
+      "Titanium Natural + Magnetic Link Caramel": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_46mm_titanium_natural_magnetic_link_caramel_portrait",
+          "screenRect": {
+            "x": 0.12757142857142856,
+            "y": 0.21718181818181817,
+            "width": 0.7448571428571429,
+            "height": 0.5656363636363636
+          }
+        }
+      },
+      "Titanium Slate + Magnetic Link Navy": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_46mm_titanium_slate_magnetic_link_navy_portrait",
+          "screenRect": {
+            "x": 0.12757142857142856,
+            "y": 0.21718181818181817,
+            "width": 0.7448571428571429,
+            "height": 0.5656363636363636
+          }
+        }
+      },
+      "Aluminum Space Gray + Sport Loop Anchor Blue": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_46mm_aluminum_space_gray_sport_loop_anchor_blue_portrait",
+          "screenRect": {
+            "x": 0.12757142857142856,
+            "y": 0.21718181818181817,
+            "width": 0.7448571428571429,
+            "height": 0.5656363636363636
+          }
+        }
+      },
+      "Aluminum Silver + Sport Loop Neon Yellow": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_46mm_aluminum_silver_sport_loop_neon_yellow_portrait",
+          "screenRect": {
+            "x": 0.12757142857142856,
+            "y": 0.21718181818181817,
+            "width": 0.7448571428571429,
+            "height": 0.5656363636363636
+          }
+        }
+      },
+      "Aluminum Space Gray + Sport Loop Forest": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_46mm_aluminum_space_gray_sport_loop_forest_portrait",
+          "screenRect": {
+            "x": 0.12757142857142856,
+            "y": 0.21718181818181817,
+            "width": 0.7448571428571429,
+            "height": 0.5656363636363636
+          }
+        }
+      },
+      "Aluminum Silver + Sport Loop Forest": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_46mm_aluminum_silver_sport_loop_forest_portrait",
+          "screenRect": {
+            "x": 0.12757142857142856,
+            "y": 0.21718181818181817,
+            "width": 0.7448571428571429,
+            "height": 0.5656363636363636
+          }
+        }
+      },
+      "Aluminum Rose Gold + Sport Loop Purple Fog": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_46mm_aluminum_rose_gold_sport_loop_purple_fog_portrait",
+          "screenRect": {
+            "x": 0.12757142857142856,
+            "y": 0.21718181818181817,
+            "width": 0.7448571428571429,
+            "height": 0.5656363636363636
+          }
+        }
+      },
+      "Aluminum Jet Black + Sport Loop Dark Gray": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_46mm_aluminum_jet_black_sport_loop_dark_gray_portrait",
+          "screenRect": {
+            "x": 0.12757142857142856,
+            "y": 0.21718181818181817,
+            "width": 0.7448571428571429,
+            "height": 0.5656363636363636
+          }
+        }
+      }
+    },
+    "Apple Watch Series 11 42mm": {
+      "Titanium Gold + Sport Band Light Blush": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_42mm_titanium_gold_sport_band_light_blush_portrait",
+          "screenRect": {
+            "x": 0.13938461538461538,
+            "y": 0.22025,
+            "width": 0.7212307692307692,
+            "height": 0.5595
+          }
+        }
+      },
+      "Titanium Natural + Sport Band Stone Gray": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_42mm_titanium_natural_sport_band_stone_gray_portrait",
+          "screenRect": {
+            "x": 0.13938461538461538,
+            "y": 0.22025,
+            "width": 0.7212307692307692,
+            "height": 0.5595
+          }
+        }
+      },
+      "Titanium Gold + Sport Band Purple Fog": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_42mm_titanium_gold_sport_band_purple_fog_portrait",
+          "screenRect": {
+            "x": 0.13938461538461538,
+            "y": 0.22025,
+            "width": 0.7212307692307692,
+            "height": 0.5595
+          }
+        }
+      },
+      "Aluminum Silver + Sport Band Neon Yellow": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_42mm_aluminum_silver_sport_band_neon_yellow_portrait",
+          "screenRect": {
+            "x": 0.13938461538461538,
+            "y": 0.22025,
+            "width": 0.7212307692307692,
+            "height": 0.5595
+          }
+        }
+      },
+      "Aluminum Space Gray + Sport Band Black": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_42mm_aluminum_space_gray_sport_band_black_portrait",
+          "screenRect": {
+            "x": 0.13938461538461538,
+            "y": 0.22025,
+            "width": 0.7212307692307692,
+            "height": 0.5595
+          }
+        }
+      },
+      "Titanium Slate + Sport Band Black": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_42mm_titanium_slate_sport_band_black_portrait",
+          "screenRect": {
+            "x": 0.13938461538461538,
+            "y": 0.22025,
+            "width": 0.7212307692307692,
+            "height": 0.5595
+          }
+        }
+      },
+      "Aluminum Space Gray + Sport Band Anchor Blue": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_42mm_aluminum_space_gray_sport_band_anchor_blue_portrait",
+          "screenRect": {
+            "x": 0.13938461538461538,
+            "y": 0.22025,
+            "width": 0.7212307692307692,
+            "height": 0.5595
+          }
+        }
+      },
+      "Aluminum Silver + Sport Band Purple Fog": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_42mm_aluminum_silver_sport_band_purple_fog_portrait",
+          "screenRect": {
+            "x": 0.13938461538461538,
+            "y": 0.22025,
+            "width": 0.7212307692307692,
+            "height": 0.5595
+          }
+        }
+      },
+      "Aluminum Jet Black + Sport Band Black": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_42mm_aluminum_jet_black_sport_band_black_portrait",
+          "screenRect": {
+            "x": 0.13938461538461538,
+            "y": 0.22025,
+            "width": 0.7212307692307692,
+            "height": 0.5595
+          }
+        }
+      },
+      "Aluminum Rose Gold + Sport Band Light Blush": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_42mm_aluminum_rose_gold_sport_band_light_blush_portrait",
+          "screenRect": {
+            "x": 0.13938461538461538,
+            "y": 0.22025,
+            "width": 0.7212307692307692,
+            "height": 0.5595
+          }
+        }
+      },
+      "Titanium Slate + Milanese Loop": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_42mm_titanium_slate_milanese_loop_portrait",
+          "screenRect": {
+            "x": 0.13938461538461538,
+            "y": 0.22025,
+            "width": 0.7212307692307692,
+            "height": 0.5595
+          }
+        }
+      },
+      "Titanium Natural + Milanese Loop": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_42mm_titanium_natural_milanese_loop_portrait",
+          "screenRect": {
+            "x": 0.13938461538461538,
+            "y": 0.22025,
+            "width": 0.7212307692307692,
+            "height": 0.5595
+          }
+        }
+      },
+      "Titanium Gold + Milanese Loop": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_42mm_titanium_gold_milanese_loop_portrait",
+          "screenRect": {
+            "x": 0.13938461538461538,
+            "y": 0.22025,
+            "width": 0.7212307692307692,
+            "height": 0.5595
+          }
+        }
+      },
+      "Titanium Slate + Magnetic Link Navy": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_42mm_titanium_slate_magnetic_link_navy_portrait",
+          "screenRect": {
+            "x": 0.13938461538461538,
+            "y": 0.22025,
+            "width": 0.7212307692307692,
+            "height": 0.5595
+          }
+        }
+      },
+      "Titanium Gold + Magnetic Link Sage Gray": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_42mm_titanium_gold_magnetic_link_sage_gray_portrait",
+          "screenRect": {
+            "x": 0.13938461538461538,
+            "y": 0.22025,
+            "width": 0.7212307692307692,
+            "height": 0.5595
+          }
+        }
+      },
+      "Titanium Natural + Magnetic Link Caramel": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_42mm_titanium_natural_magnetic_link_caramel_portrait",
+          "screenRect": {
+            "x": 0.13938461538461538,
+            "y": 0.22025,
+            "width": 0.7212307692307692,
+            "height": 0.5595
+          }
+        }
+      },
+      "Aluminum Space Gray + Sport Loop Anchor Blue": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_42mm_aluminum_space_gray_sport_loop_anchor_blue_portrait",
+          "screenRect": {
+            "x": 0.13938461538461538,
+            "y": 0.22025,
+            "width": 0.7212307692307692,
+            "height": 0.5595
+          }
+        }
+      },
+      "Aluminum Silver + Sport Loop Neon Yellow": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_42mm_aluminum_silver_sport_loop_neon_yellow_portrait",
+          "screenRect": {
+            "x": 0.13938461538461538,
+            "y": 0.22025,
+            "width": 0.7212307692307692,
+            "height": 0.5595
+          }
+        }
+      },
+      "Aluminum Rose Gold + Sport Loop Purple Fog": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_42mm_aluminum_rose_gold_sport_loop_purple_fog_portrait",
+          "screenRect": {
+            "x": 0.13938461538461538,
+            "y": 0.22025,
+            "width": 0.7212307692307692,
+            "height": 0.5595
+          }
+        }
+      },
+      "Aluminum Jet Black + Sport Loop Dark Gray": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_42mm_aluminum_jet_black_sport_loop_dark_gray_portrait",
+          "screenRect": {
+            "x": 0.13938461538461538,
+            "y": 0.22025,
+            "width": 0.7212307692307692,
+            "height": 0.5595
+          }
+        }
+      },
+      "Aluminum Space Gray + Sport Loop Forest": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_42mm_aluminum_space_gray_sport_loop_forest_portrait",
+          "screenRect": {
+            "x": 0.13938461538461538,
+            "y": 0.22025,
+            "width": 0.7212307692307692,
+            "height": 0.5595
+          }
+        }
+      },
+      "Aluminum Silver + Sport Loop Forest": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_42mm_aluminum_silver_sport_loop_forest_portrait",
           "screenRect": {
             "x": 0.13938461538461538,
             "y": 0.22025,

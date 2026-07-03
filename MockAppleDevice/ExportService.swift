@@ -38,7 +38,7 @@ enum ExportService {
             )
             
             // 只有超窄边框的 iPhone 需要对底层贴图做圆角剪裁；其他设备（宽边框）直接使用直角剪裁，让样机自带圆角自然物理遮挡即可
-            if category == .iphone {
+            if category == .iphone || category == .appleWatch {
                 let cr = min(targetRect.width, targetRect.height) * category.defaultCornerRadius
                 let clipPath = CGPath(
                     roundedRect: targetRect,
