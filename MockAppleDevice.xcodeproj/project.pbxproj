@@ -28,6 +28,7 @@
 		0F0DE2462FF74F1B00EB22F8 /* MockAppleDeviceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockAppleDeviceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F0DE2502FF74F1B00EB22F8 /* MockAppleDeviceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockAppleDeviceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F0DE5E32FF7A4CC00EB22F8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0F0DE6802FF7CBCC00EB22F8 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -89,6 +90,7 @@
 		0F0DE2302FF74F1900EB22F8 = {
 			isa = PBXGroup;
 			children = (
+				0F0DE6802FF7CBCC00EB22F8 /* .gitignore */,
 				0F0DE5E32FF7A4CC00EB22F8 /* README.md */,
 				0F0DE23B2FF74F1900EB22F8 /* MockAppleDevice */,
 				0F0DE2492FF74F1B00EB22F8 /* MockAppleDeviceTests */,
