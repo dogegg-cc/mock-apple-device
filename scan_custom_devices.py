@@ -105,10 +105,14 @@ def detect_screen_rect(image_path, category, orientation):
         while bottom < height - 1 and img.getpixel((cx, bottom + 1))[3] == 0:
             bottom += 1
             
-        rx = max(0.0, left / width - margin_x)
-        ry = max(0.0, top / height - margin_y)
-        rw = min(1.0, (right - left + 1) / width + 2 * margin_x)
-        rh = min(1.0, (bottom - top + 1) / height + 2 * margin_y)
+        # 0.1% 微小重叠边距，为 iPad/MacBook 边框提供更加宽敞和精致的“呼吸感”
+        margin_x_non_iphone = 0.001
+        margin_y_non_iphone = 0.001
+        
+        rx = max(0.0, left / width - margin_x_non_iphone)
+        ry = max(0.0, top / height - margin_y_non_iphone)
+        rw = min(1.0, (right - left + 1) / width + 2 * margin_x_non_iphone)
+        rh = min(1.0, (bottom - top + 1) / height + 2 * margin_y_non_iphone)
         
         return rx, ry, rw, rh
     except Exception as e:

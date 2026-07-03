@@ -39,13 +39,11 @@ private struct DeviceFrameView: View {
         let screen = config.screenRect
         let screenWidth = size.width * screen.width
         let screenHeight = size.height * screen.height
-        let cr = min(screenWidth, screenHeight) * device.category.defaultCornerRadius
         
         return Group {
             if let screenshot = screenshot {
                 Image(nsImage: screenshot.adjustedToOrientation(orientation))
                     .resizable()
-                    .aspectRatio(contentMode: .fill)
             } else {
                 ScreenshotPlaceholder(
                     iconSize: min(size.width, size.height) * 0.08,
@@ -54,11 +52,30 @@ private struct DeviceFrameView: View {
             }
         }
         .frame(width: screenWidth, height: screenHeight)
-        .clipShape(RoundedRectangle(cornerRadius: cr, style: .continuous))
+        .modifier(CornerRadiusModifier(category: device.category, screenWidth: screenWidth, screenHeight: screenHeight))
         .position(
             x: size.width * (screen.origin.x + screen.width / 2),
             y: size.height * (screen.origin.y + screen.height / 2)
         )
+    }
+}
+
+// MARK: - 自适应裁剪修饰符
+
+private struct CornerRadiusModifier: ViewModifier {
+    let category: DeviceCategory
+    let screenWidth: CGFloat
+    let screenHeight: CGFloat
+    
+    func body(content: Content) -> some View {
+        if category == .iphone {
+            let cr = min(screenWidth, screenHeight) * category.defaultCornerRadius
+            content
+                .clipShape(RoundedRectangle(cornerRadius: cr, style: .continuous))
+        } else {
+            content
+                .clipped()
+        }
     }
 }
 

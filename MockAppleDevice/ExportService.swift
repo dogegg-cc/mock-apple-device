@@ -37,16 +37,20 @@ enum ExportService {
                 height: deviceSize.height * screenRect.size.height
             )
             
-            // 根据品类匹配圆角，剪裁底层截图，防止直角溢出到机身外圈
-            let cr = min(targetRect.width, targetRect.height) * category.defaultCornerRadius
-            let clipPath = CGPath(
-                roundedRect: targetRect,
-                cornerWidth: cr,
-                cornerHeight: cr,
-                transform: nil
-            )
-            context.addPath(clipPath)
-            context.clip()
+            // 只有超窄边框的 iPhone 需要对底层贴图做圆角剪裁；其他设备（宽边框）直接使用直角剪裁，让样机自带圆角自然物理遮挡即可
+            if category == .iphone {
+                let cr = min(targetRect.width, targetRect.height) * category.defaultCornerRadius
+                let clipPath = CGPath(
+                    roundedRect: targetRect,
+                    cornerWidth: cr,
+                    cornerHeight: cr,
+                    transform: nil
+                )
+                context.addPath(clipPath)
+                context.clip()
+            } else {
+                context.clip(to: targetRect)
+            }
             
             // 绘制截图（填充模式，确保完全覆盖）
             if let cgScreenshot = adjustedScreenshot.cgImage(forProposedRect: nil, context: nil, hints: nil) {
