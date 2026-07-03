@@ -96,13 +96,27 @@ def detect_screen_rect(image_path, category, orientation):
         right = cx
         while right < width - 1 and img.getpixel((right + 1, cy))[3] == 0:
             right += 1
+            
+        # 向上/向下扫描使用偏离中央 25% 宽度的 scan_x 轴线，以避开屏幕中央刘海 (Notch) / 摄像头等实色块的阻挡
+        scan_x = cx - width // 4
+        if img.getpixel((scan_x, cy))[3] != 0:
+            found_scan_x = False
+            for dx in range(-width // 8, width // 8):
+                tx = scan_x + dx
+                if 0 <= tx < width and img.getpixel((tx, cy))[3] == 0:
+                    scan_x = tx
+                    found_scan_x = True
+                    break
+            if not found_scan_x:
+                scan_x = cx
+                
         # 向上扫描
         top = cy
-        while top > 0 and img.getpixel((cx, top - 1))[3] == 0:
+        while top > 0 and img.getpixel((scan_x, top - 1))[3] == 0:
             top -= 1
         # 向下扫描
         bottom = cy
-        while bottom < height - 1 and img.getpixel((cx, bottom + 1))[3] == 0:
+        while bottom < height - 1 and img.getpixel((scan_x, bottom + 1))[3] == 0:
             bottom += 1
             
         # 0.1% 微小重叠边距，为 iPad/MacBook 边框提供更加宽敞和精致的“呼吸感”
