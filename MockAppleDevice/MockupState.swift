@@ -67,6 +67,11 @@ class MockupState {
         }
     }
     
+    func clearScreenshots() {
+        screenshots.removeAll()
+        selectedScreenshotId = nil
+    }
+    
     // MARK: - 设备选择联动
     
     func selectCategory(_ category: DeviceCategory) {

@@ -9,6 +9,7 @@ struct ScreenshotTray: View {
         VStack(alignment: .leading, spacing: 8) {
             TrayHeader(
                 screenshotCount: state.screenshots.count,
+                clearAction: { state.clearScreenshots() },
                 importAction: selectFileManually
             )
             
@@ -48,6 +49,7 @@ struct ScreenshotTray: View {
 
 private struct TrayHeader: View {
     let screenshotCount: Int
+    let clearAction: () -> Void
     let importAction: () -> Void
     
     var body: some View {
@@ -58,6 +60,15 @@ private struct TrayHeader: View {
                 .foregroundColor(.primary)
             
             Spacer()
+            
+            if screenshotCount > 0 {
+                Button(role: .destructive, action: clearAction) {
+                    Label("清空", systemImage: "trash")
+                        .font(.caption)
+                }
+                .buttonStyle(.bordered)
+                .controlSize(.small)
+            }
             
             Button(action: importAction) {
                 Label("导入图片", systemImage: "photo.badge.plus")
