@@ -2,6 +2,10 @@
 
 `MockAppleDevice` 是一款专为 macOS 平台开发的高清、全品类苹果设备样机（Mockup）套壳工具。它允许开发者、设计师和运营人员轻松地将应用截图、系统界面等导入各种苹果硬件设备（iPhone、iPad、MacBook、Apple Watch）的实机边框中，一键渲染出具有自然圆角、精准屏幕拟合以及阴影的专业样机展示图。
 
+<img width="756" height="487.5" alt="截屏2026-07-03 16 25 27" src="https://github.com/user-attachments/assets/cce53510-0477-4182-b707-76785548c94d" />
+
+
+
 ---
 
 ## 🌟 核心特性
