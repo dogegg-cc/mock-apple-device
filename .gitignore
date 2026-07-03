@@ -3,6 +3,7 @@
 build/
 DerivedData/
 Device/
+ipa/
 
 # 个人项目设置（不应上传，以免覆盖队友的设置）
 *.pbxuser
