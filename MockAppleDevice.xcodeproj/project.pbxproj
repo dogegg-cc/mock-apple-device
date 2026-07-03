@@ -29,9 +29,22 @@
 		0F0DE2502FF74F1B00EB22F8 /* MockAppleDeviceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockAppleDeviceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		0F0DE5952FF79CD300EB22F8 /* Exceptions for "MockAppleDevice" folder in "MockAppleDevice" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				update_json.py,
+			);
+			target = 0F0DE2382FF74F1900EB22F8 /* MockAppleDevice */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		0F0DE23B2FF74F1900EB22F8 /* MockAppleDevice */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0F0DE5952FF79CD300EB22F8 /* Exceptions for "MockAppleDevice" folder in "MockAppleDevice" target */,
+			);
 			path = MockAppleDevice;
 			sourceTree = "<group>";
 		};

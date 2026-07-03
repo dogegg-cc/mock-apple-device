@@ -33,7 +33,7 @@ struct DeviceSidebar: View {
                             HStack(spacing: 8) {
                                 Image(systemName: selectedCategory.systemImage)
                                     .font(.system(size: 13))
-                                    .foregroundColor(selectedDevice == device ? .accentColor : .secondary)
+                                    .foregroundColor(selectedDevice == device ? .white : .secondary)
                                 Text(device.name)
                                     .font(.body)
                                 Spacer()
