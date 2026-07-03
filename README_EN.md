@@ -6,6 +6,9 @@
 
 ---
 
+<img width="684" height="482.5" alt="截屏2026-07-03 16 44 37" src="https://github.com/user-attachments/assets/f6d8eb0e-c7e7-48bd-9515-4ad353054291" />
+
+
 ## 🌟 Core Features
 
 - **All-in-One Apple Device Coverage**: Supports multiple generations of devices including iPhone, iPad, MacBook, and Apple Watch.
