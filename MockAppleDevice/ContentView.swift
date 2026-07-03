@@ -12,6 +12,7 @@ struct ContentView: View {
                 selectedCategory: $state.selectedCategory,
                 selectedDevice: $state.selectedDevice
             )
+            .padding(.top, 12)
         } detail: {
             ZStack {
                 HStack(spacing: 0) {
@@ -52,10 +53,11 @@ struct ContentView: View {
                 }
             }
             .frame(minWidth: 700, minHeight: 600)
+            .background(Color(red: 0.95, green: 0.95, blue: 0.97).ignoresSafeArea())
+            .navigationTitle("MockAppleDevice - 全品类高清套壳工具")
+            .toolbarBackground(Color.clear, for: .windowToolbar)
         }
         .frame(minWidth: 1050, minHeight: 700)
-        .navigationTitle("MockAppleDevice - 全品类高清套壳工具")
-        // 强制启用浅色系主题 (解决问题 5)
         .preferredColorScheme(.light)
     }
 }
