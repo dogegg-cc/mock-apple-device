@@ -1,0 +1,1457 @@
+{
+  "macbook": {
+    "MacBook Neo -": {
+      "Blush": {
+        "landscape": {
+          "imageName": "macbook_neo_blush_landscape",
+          "screenRect": {
+            "x": 0.082,
+            "y": 0.032,
+            "width": 0.836,
+            "height": 0.548
+          }
+        }
+      },
+      "Silver": {
+        "landscape": {
+          "imageName": "macbook_neo_silver_landscape",
+          "screenRect": {
+            "x": 0.082,
+            "y": 0.032,
+            "width": 0.836,
+            "height": 0.548
+          }
+        }
+      },
+      "Indigo": {
+        "landscape": {
+          "imageName": "macbook_neo_indigo_landscape",
+          "screenRect": {
+            "x": 0.082,
+            "y": 0.032,
+            "width": 0.836,
+            "height": 0.548
+          }
+        }
+      },
+      "Citrus": {
+        "landscape": {
+          "imageName": "macbook_neo_citrus_landscape",
+          "screenRect": {
+            "x": 0.082,
+            "y": 0.032,
+            "width": 0.836,
+            "height": 0.548
+          }
+        }
+      }
+    },
+    "MacBook Pro M5 14-inch": {
+      "Silver": {
+        "landscape": {
+          "imageName": "macbook_pro_m5_14_inch_silver_landscape",
+          "screenRect": {
+            "x": 0.082,
+            "y": 0.032,
+            "width": 0.836,
+            "height": 0.548
+          }
+        }
+      },
+      "Space Black": {
+        "landscape": {
+          "imageName": "macbook_pro_m5_14_inch_space_black_landscape",
+          "screenRect": {
+            "x": 0.082,
+            "y": 0.032,
+            "width": 0.836,
+            "height": 0.548
+          }
+        }
+      }
+    },
+    "MacBook Pro M5 16-inch": {
+      "Silver": {
+        "landscape": {
+          "imageName": "macbook_pro_m5_16_inch_silver_landscape",
+          "screenRect": {
+            "x": 0.082,
+            "y": 0.032,
+            "width": 0.836,
+            "height": 0.548
+          }
+        }
+      },
+      "Space Black": {
+        "landscape": {
+          "imageName": "macbook_pro_m5_16_inch_space_black_landscape",
+          "screenRect": {
+            "x": 0.082,
+            "y": 0.032,
+            "width": 0.836,
+            "height": 0.548
+          }
+        }
+      }
+    },
+    "MacBook Air M5 15-inch": {
+      "Midnight": {
+        "landscape": {
+          "imageName": "macbook_air_m5_15_inch_midnight_landscape",
+          "screenRect": {
+            "x": 0.082,
+            "y": 0.032,
+            "width": 0.836,
+            "height": 0.548
+          }
+        }
+      },
+      "Silver": {
+        "landscape": {
+          "imageName": "macbook_air_m5_15_inch_silver_landscape",
+          "screenRect": {
+            "x": 0.082,
+            "y": 0.032,
+            "width": 0.836,
+            "height": 0.548
+          }
+        }
+      },
+      "Starlight": {
+        "landscape": {
+          "imageName": "macbook_air_m5_15_inch_starlight_landscape",
+          "screenRect": {
+            "x": 0.082,
+            "y": 0.032,
+            "width": 0.836,
+            "height": 0.548
+          }
+        }
+      }
+    },
+    "MacBook Air M5 13-inch": {
+      "Midnight": {
+        "landscape": {
+          "imageName": "macbook_air_m5_13_inch_midnight_landscape",
+          "screenRect": {
+            "x": 0.082,
+            "y": 0.032,
+            "width": 0.836,
+            "height": 0.548
+          }
+        }
+      },
+      "Starlight": {
+        "landscape": {
+          "imageName": "macbook_air_m5_13_inch_starlight_landscape",
+          "screenRect": {
+            "x": 0.082,
+            "y": 0.032,
+            "width": 0.836,
+            "height": 0.548
+          }
+        }
+      },
+      "Silver": {
+        "landscape": {
+          "imageName": "macbook_air_m5_13_inch_silver_landscape",
+          "screenRect": {
+            "x": 0.082,
+            "y": 0.032,
+            "width": 0.836,
+            "height": 0.548
+          }
+        }
+      }
+    },
+    "MacBook Air M5 15-inch Sky": {
+      "Blue": {
+        "landscape": {
+          "imageName": "macbook_air_m5_15_inch_sky_blue_landscape",
+          "screenRect": {
+            "x": 0.082,
+            "y": 0.032,
+            "width": 0.836,
+            "height": 0.548
+          }
+        }
+      }
+    },
+    "MacBook Air M5 13-inch Sky": {
+      "Blue": {
+        "landscape": {
+          "imageName": "macbook_air_m5_13_inch_sky_blue_landscape",
+          "screenRect": {
+            "x": 0.082,
+            "y": 0.032,
+            "width": 0.836,
+            "height": 0.548
+          }
+        }
+      }
+    }
+  },
+  "ipad": {
+    "iPad (A16)": {
+      "Silver": {
+        "landscape": {
+          "imageName": "ipad_a16_silver_landscape",
+          "screenRect": {
+            "x": 0.038,
+            "y": 0.028,
+            "width": 0.924,
+            "height": 0.944
+          }
+        },
+        "portrait": {
+          "imageName": "ipad_a16_silver_portrait",
+          "screenRect": {
+            "x": 0.038,
+            "y": 0.028,
+            "width": 0.924,
+            "height": 0.944
+          }
+        }
+      },
+      "Blue": {
+        "portrait": {
+          "imageName": "ipad_a16_blue_portrait",
+          "screenRect": {
+            "x": 0.038,
+            "y": 0.028,
+            "width": 0.924,
+            "height": 0.944
+          }
+        },
+        "landscape": {
+          "imageName": "ipad_a16_blue_landscape",
+          "screenRect": {
+            "x": 0.038,
+            "y": 0.028,
+            "width": 0.924,
+            "height": 0.944
+          }
+        }
+      },
+      "Pink": {
+        "landscape": {
+          "imageName": "ipad_a16_pink_landscape",
+          "screenRect": {
+            "x": 0.038,
+            "y": 0.028,
+            "width": 0.924,
+            "height": 0.944
+          }
+        },
+        "portrait": {
+          "imageName": "ipad_a16_pink_portrait",
+          "screenRect": {
+            "x": 0.038,
+            "y": 0.028,
+            "width": 0.924,
+            "height": 0.944
+          }
+        }
+      },
+      "Yellow": {
+        "portrait": {
+          "imageName": "ipad_a16_yellow_portrait",
+          "screenRect": {
+            "x": 0.038,
+            "y": 0.028,
+            "width": 0.924,
+            "height": 0.944
+          }
+        },
+        "landscape": {
+          "imageName": "ipad_a16_yellow_landscape",
+          "screenRect": {
+            "x": 0.038,
+            "y": 0.028,
+            "width": 0.924,
+            "height": 0.944
+          }
+        }
+      }
+    },
+    "iPad mini (A17 Pro)": {
+      "Space Gray": {
+        "landscape": {
+          "imageName": "ipad_mini_a17_pro_space_gray_landscape",
+          "screenRect": {
+            "x": 0.038,
+            "y": 0.028,
+            "width": 0.924,
+            "height": 0.944
+          }
+        },
+        "portrait": {
+          "imageName": "ipad_mini_a17_pro_space_gray_portrait",
+          "screenRect": {
+            "x": 0.038,
+            "y": 0.028,
+            "width": 0.924,
+            "height": 0.944
+          }
+        }
+      },
+      "Purple": {
+        "landscape": {
+          "imageName": "ipad_mini_a17_pro_purple_landscape",
+          "screenRect": {
+            "x": 0.038,
+            "y": 0.028,
+            "width": 0.924,
+            "height": 0.944
+          }
+        },
+        "portrait": {
+          "imageName": "ipad_mini_a17_pro_purple_portrait",
+          "screenRect": {
+            "x": 0.038,
+            "y": 0.028,
+            "width": 0.924,
+            "height": 0.944
+          }
+        }
+      },
+      "Starlight": {
+        "landscape": {
+          "imageName": "ipad_mini_a17_pro_starlight_landscape",
+          "screenRect": {
+            "x": 0.038,
+            "y": 0.028,
+            "width": 0.924,
+            "height": 0.944
+          }
+        },
+        "portrait": {
+          "imageName": "ipad_mini_a17_pro_starlight_portrait",
+          "screenRect": {
+            "x": 0.038,
+            "y": 0.028,
+            "width": 0.924,
+            "height": 0.944
+          }
+        }
+      },
+      "Blue": {
+        "portrait": {
+          "imageName": "ipad_mini_a17_pro_blue_portrait",
+          "screenRect": {
+            "x": 0.038,
+            "y": 0.028,
+            "width": 0.924,
+            "height": 0.944
+          }
+        },
+        "landscape": {
+          "imageName": "ipad_mini_a17_pro_blue_landscape",
+          "screenRect": {
+            "x": 0.038,
+            "y": 0.028,
+            "width": 0.924,
+            "height": 0.944
+          }
+        }
+      }
+    },
+    "iPad Air 11\" (M4)": {
+      "Space Gray": {
+        "portrait": {
+          "imageName": "ipad_air_11_m4_space_gray_portrait",
+          "screenRect": {
+            "x": 0.038,
+            "y": 0.028,
+            "width": 0.924,
+            "height": 0.944
+          }
+        },
+        "landscape": {
+          "imageName": "ipad_air_11_m4_space_gray_landscape",
+          "screenRect": {
+            "x": 0.038,
+            "y": 0.028,
+            "width": 0.924,
+            "height": 0.944
+          }
+        }
+      },
+      "Starlight": {
+        "landscape": {
+          "imageName": "ipad_air_11_m4_starlight_landscape",
+          "screenRect": {
+            "x": 0.038,
+            "y": 0.028,
+            "width": 0.924,
+            "height": 0.944
+          }
+        },
+        "portrait": {
+          "imageName": "ipad_air_11_m4_starlight_portrait",
+          "screenRect": {
+            "x": 0.038,
+            "y": 0.028,
+            "width": 0.924,
+            "height": 0.944
+          }
+        }
+      },
+      "Purple": {
+        "landscape": {
+          "imageName": "ipad_air_11_m4_purple_landscape",
+          "screenRect": {
+            "x": 0.038,
+            "y": 0.028,
+            "width": 0.924,
+            "height": 0.944
+          }
+        },
+        "portrait": {
+          "imageName": "ipad_air_11_m4_purple_portrait",
+          "screenRect": {
+            "x": 0.038,
+            "y": 0.028,
+            "width": 0.924,
+            "height": 0.944
+          }
+        }
+      },
+      "Blue": {
+        "landscape": {
+          "imageName": "ipad_air_11_m4_blue_landscape",
+          "screenRect": {
+            "x": 0.038,
+            "y": 0.028,
+            "width": 0.924,
+            "height": 0.944
+          }
+        },
+        "portrait": {
+          "imageName": "ipad_air_11_m4_blue_portrait",
+          "screenRect": {
+            "x": 0.038,
+            "y": 0.028,
+            "width": 0.924,
+            "height": 0.944
+          }
+        }
+      }
+    },
+    "iPad Air 13\" (M4)": {
+      "Starlight": {
+        "landscape": {
+          "imageName": "ipad_air_13_m4_starlight_landscape",
+          "screenRect": {
+            "x": 0.038,
+            "y": 0.028,
+            "width": 0.924,
+            "height": 0.944
+          }
+        },
+        "portrait": {
+          "imageName": "ipad_air_13_m4_starlight_portrait",
+          "screenRect": {
+            "x": 0.038,
+            "y": 0.028,
+            "width": 0.924,
+            "height": 0.944
+          }
+        }
+      },
+      "Space Gray": {
+        "portrait": {
+          "imageName": "ipad_air_13_m4_space_gray_portrait",
+          "screenRect": {
+            "x": 0.038,
+            "y": 0.028,
+            "width": 0.924,
+            "height": 0.944
+          }
+        },
+        "landscape": {
+          "imageName": "ipad_air_13_m4_space_gray_landscape",
+          "screenRect": {
+            "x": 0.038,
+            "y": 0.028,
+            "width": 0.924,
+            "height": 0.944
+          }
+        }
+      },
+      "Blue": {
+        "landscape": {
+          "imageName": "ipad_air_13_m4_blue_landscape",
+          "screenRect": {
+            "x": 0.038,
+            "y": 0.028,
+            "width": 0.924,
+            "height": 0.944
+          }
+        },
+        "portrait": {
+          "imageName": "ipad_air_13_m4_blue_portrait",
+          "screenRect": {
+            "x": 0.038,
+            "y": 0.028,
+            "width": 0.924,
+            "height": 0.944
+          }
+        }
+      },
+      "Purple": {
+        "landscape": {
+          "imageName": "ipad_air_13_m4_purple_landscape",
+          "screenRect": {
+            "x": 0.038,
+            "y": 0.028,
+            "width": 0.924,
+            "height": 0.944
+          }
+        },
+        "portrait": {
+          "imageName": "ipad_air_13_m4_purple_portrait",
+          "screenRect": {
+            "x": 0.038,
+            "y": 0.028,
+            "width": 0.924,
+            "height": 0.944
+          }
+        }
+      }
+    },
+    "iPad Pro (M5) 11\"": {
+      "Silver": {
+        "landscape": {
+          "imageName": "ipad_pro_m5_11_silver_landscape",
+          "screenRect": {
+            "x": 0.038,
+            "y": 0.028,
+            "width": 0.924,
+            "height": 0.944
+          }
+        },
+        "portrait": {
+          "imageName": "ipad_pro_m5_11_silver_portrait",
+          "screenRect": {
+            "x": 0.038,
+            "y": 0.028,
+            "width": 0.924,
+            "height": 0.944
+          }
+        }
+      },
+      "Space Black": {
+        "landscape": {
+          "imageName": "ipad_pro_m5_11_space_black_landscape",
+          "screenRect": {
+            "x": 0.038,
+            "y": 0.028,
+            "width": 0.924,
+            "height": 0.944
+          }
+        },
+        "portrait": {
+          "imageName": "ipad_pro_m5_11_space_black_portrait",
+          "screenRect": {
+            "x": 0.038,
+            "y": 0.028,
+            "width": 0.924,
+            "height": 0.944
+          }
+        }
+      }
+    },
+    "iPad Pro (M5) 13\"": {
+      "Silver": {
+        "landscape": {
+          "imageName": "ipad_pro_m5_13_silver_landscape",
+          "screenRect": {
+            "x": 0.038,
+            "y": 0.028,
+            "width": 0.924,
+            "height": 0.944
+          }
+        },
+        "portrait": {
+          "imageName": "ipad_pro_m5_13_silver_portrait",
+          "screenRect": {
+            "x": 0.038,
+            "y": 0.028,
+            "width": 0.924,
+            "height": 0.944
+          }
+        }
+      },
+      "Space Black": {
+        "landscape": {
+          "imageName": "ipad_pro_m5_13_space_black_landscape",
+          "screenRect": {
+            "x": 0.038,
+            "y": 0.028,
+            "width": 0.924,
+            "height": 0.944
+          }
+        },
+        "portrait": {
+          "imageName": "ipad_pro_m5_13_space_black_portrait",
+          "screenRect": {
+            "x": 0.038,
+            "y": 0.028,
+            "width": 0.924,
+            "height": 0.944
+          }
+        }
+      }
+    }
+  },
+  "appleWatch": {
+    "Apple Watch Series 11 2025": {
+      "46mm": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_2025_46mm_portrait",
+          "screenRect": {
+            "x": 0.088,
+            "y": 0.205,
+            "width": 0.824,
+            "height": 0.59
+          }
+        }
+      },
+      "42mm": {
+        "portrait": {
+          "imageName": "apple_watch_series_11_2025_42mm_portrait",
+          "screenRect": {
+            "x": 0.088,
+            "y": 0.205,
+            "width": 0.824,
+            "height": 0.59
+          }
+        }
+      }
+    },
+    "Apple Watch Ultra 3": {
+      "Black + Ocean Band Anchor Blue": {
+        "portrait": {
+          "imageName": "apple_watch_ultra_3_black_ocean_band_anchor_blue_portrait",
+          "screenRect": {
+            "x": 0.088,
+            "y": 0.205,
+            "width": 0.824,
+            "height": 0.59
+          }
+        }
+      },
+      "Natural + Ocean Band Anchor Blue": {
+        "portrait": {
+          "imageName": "apple_watch_ultra_3_natural_ocean_band_anchor_blue_portrait",
+          "screenRect": {
+            "x": 0.088,
+            "y": 0.205,
+            "width": 0.824,
+            "height": 0.59
+          }
+        }
+      },
+      "Natural + Ocean Band Neon Green": {
+        "portrait": {
+          "imageName": "apple_watch_ultra_3_natural_ocean_band_neon_green_portrait",
+          "screenRect": {
+            "x": 0.088,
+            "y": 0.205,
+            "width": 0.824,
+            "height": 0.59
+          }
+        }
+      },
+      "Black + Ocean Band Black": {
+        "portrait": {
+          "imageName": "apple_watch_ultra_3_black_ocean_band_black_portrait",
+          "screenRect": {
+            "x": 0.088,
+            "y": 0.205,
+            "width": 0.824,
+            "height": 0.59
+          }
+        }
+      },
+      "Natural + Milanese Loop": {
+        "portrait": {
+          "imageName": "apple_watch_ultra_3_natural_milanese_loop_portrait",
+          "screenRect": {
+            "x": 0.088,
+            "y": 0.205,
+            "width": 0.824,
+            "height": 0.59
+          }
+        }
+      },
+      "Black + Milanese Loop": {
+        "portrait": {
+          "imageName": "apple_watch_ultra_3_black_milanese_loop_portrait",
+          "screenRect": {
+            "x": 0.088,
+            "y": 0.205,
+            "width": 0.824,
+            "height": 0.59
+          }
+        }
+      },
+      "Black + Alpine Loop Black": {
+        "portrait": {
+          "imageName": "apple_watch_ultra_3_black_alpine_loop_black_portrait",
+          "screenRect": {
+            "x": 0.088,
+            "y": 0.205,
+            "width": 0.824,
+            "height": 0.59
+          }
+        }
+      },
+      "Natural + Alpine Loop Light Blue": {
+        "portrait": {
+          "imageName": "apple_watch_ultra_3_natural_alpine_loop_light_blue_portrait",
+          "screenRect": {
+            "x": 0.088,
+            "y": 0.205,
+            "width": 0.824,
+            "height": 0.59
+          }
+        }
+      },
+      "Natural + Alpine Loop Terra Cotta": {
+        "portrait": {
+          "imageName": "apple_watch_ultra_3_natural_alpine_loop_terra_cotta_portrait",
+          "screenRect": {
+            "x": 0.088,
+            "y": 0.205,
+            "width": 0.824,
+            "height": 0.59
+          }
+        }
+      },
+      "Black + Alpine Loop Light Blue": {
+        "portrait": {
+          "imageName": "apple_watch_ultra_3_black_alpine_loop_light_blue_portrait",
+          "screenRect": {
+            "x": 0.088,
+            "y": 0.205,
+            "width": 0.824,
+            "height": 0.59
+          }
+        }
+      },
+      "Black + Trail Loop Black Charcoal": {
+        "portrait": {
+          "imageName": "apple_watch_ultra_3_black_trail_loop_black_charcoal_portrait",
+          "screenRect": {
+            "x": 0.088,
+            "y": 0.205,
+            "width": 0.824,
+            "height": 0.59
+          }
+        }
+      },
+      "Natural + Trail Loop Blue Bright Blue": {
+        "portrait": {
+          "imageName": "apple_watch_ultra_3_natural_trail_loop_blue_bright_blue_portrait",
+          "screenRect": {
+            "x": 0.088,
+            "y": 0.205,
+            "width": 0.824,
+            "height": 0.59
+          }
+        }
+      },
+      "Natural + Trail Loop Green Neon": {
+        "portrait": {
+          "imageName": "apple_watch_ultra_3_natural_trail_loop_green_neon_portrait",
+          "screenRect": {
+            "x": 0.088,
+            "y": 0.205,
+            "width": 0.824,
+            "height": 0.59
+          }
+        }
+      }
+    }
+  },
+  "iphone": {
+    "iPhone 17 Pro Max": {
+      "Cosmic Orange": {
+        "portrait": {
+          "imageName": "iphone_17_pro_max_cosmic_orange_portrait",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        },
+        "landscape": {
+          "imageName": "iphone_17_pro_max_cosmic_orange_landscape",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        }
+      },
+      "Deep Blue": {
+        "landscape": {
+          "imageName": "iphone_17_pro_max_deep_blue_landscape",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        },
+        "portrait": {
+          "imageName": "iphone_17_pro_max_deep_blue_portrait",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        }
+      },
+      "Silver": {
+        "portrait": {
+          "imageName": "iphone_17_pro_max_silver_portrait",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        },
+        "landscape": {
+          "imageName": "iphone_17_pro_max_silver_landscape",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        }
+      }
+    },
+    "iPhone 17 Pro": {
+      "Silver": {
+        "landscape": {
+          "imageName": "iphone_17_pro_silver_landscape",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        },
+        "portrait": {
+          "imageName": "iphone_17_pro_silver_portrait",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        }
+      },
+      "Deep Blue": {
+        "landscape": {
+          "imageName": "iphone_17_pro_deep_blue_landscape",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        },
+        "portrait": {
+          "imageName": "iphone_17_pro_deep_blue_portrait",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        }
+      },
+      "Cosmic Orange": {
+        "portrait": {
+          "imageName": "iphone_17_pro_cosmic_orange_portrait",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        },
+        "landscape": {
+          "imageName": "iphone_17_pro_cosmic_orange_landscape",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        }
+      }
+    },
+    "iPhone 17": {
+      "Mist Blue": {
+        "landscape": {
+          "imageName": "iphone_17_mist_blue_landscape",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        },
+        "portrait": {
+          "imageName": "iphone_17_mist_blue_portrait",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        }
+      },
+      "Black": {
+        "landscape": {
+          "imageName": "iphone_17_black_landscape",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        },
+        "portrait": {
+          "imageName": "iphone_17_black_portrait",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        }
+      },
+      "White": {
+        "portrait": {
+          "imageName": "iphone_17_white_portrait",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        },
+        "landscape": {
+          "imageName": "iphone_17_white_landscape",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        }
+      },
+      "Lavender": {
+        "landscape": {
+          "imageName": "iphone_17_lavender_landscape",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        },
+        "portrait": {
+          "imageName": "iphone_17_lavender_portrait",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        }
+      },
+      "Sage": {
+        "landscape": {
+          "imageName": "iphone_17_sage_landscape",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        },
+        "portrait": {
+          "imageName": "iphone_17_sage_portrait",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        }
+      }
+    },
+    "iPhone Air": {
+      "Cloud White": {
+        "portrait": {
+          "imageName": "iphone_air_cloud_white_portrait",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        },
+        "landscape": {
+          "imageName": "iphone_air_cloud_white_landscape",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        }
+      },
+      "Sky Blue": {
+        "landscape": {
+          "imageName": "iphone_air_sky_blue_landscape",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        },
+        "portrait": {
+          "imageName": "iphone_air_sky_blue_portrait",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        }
+      },
+      "Light Gold": {
+        "landscape": {
+          "imageName": "iphone_air_light_gold_landscape",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        },
+        "portrait": {
+          "imageName": "iphone_air_light_gold_portrait",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        }
+      },
+      "Space Black": {
+        "landscape": {
+          "imageName": "iphone_air_space_black_landscape",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        },
+        "portrait": {
+          "imageName": "iphone_air_space_black_portrait",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        }
+      }
+    },
+    "iPhone 16 Pro Max": {
+      "Natural Titanium": {
+        "portrait": {
+          "imageName": "iphone_16_pro_max_natural_titanium_portrait",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        },
+        "landscape": {
+          "imageName": "iphone_16_pro_max_natural_titanium_landscape",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        }
+      },
+      "White Titanium": {
+        "landscape": {
+          "imageName": "iphone_16_pro_max_white_titanium_landscape",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        },
+        "portrait": {
+          "imageName": "iphone_16_pro_max_white_titanium_portrait",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        }
+      },
+      "Black Titanium": {
+        "landscape": {
+          "imageName": "iphone_16_pro_max_black_titanium_landscape",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        },
+        "portrait": {
+          "imageName": "iphone_16_pro_max_black_titanium_portrait",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        }
+      },
+      "Desert Titanium": {
+        "landscape": {
+          "imageName": "iphone_16_pro_max_desert_titanium_landscape",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        },
+        "portrait": {
+          "imageName": "iphone_16_pro_max_desert_titanium_portrait",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        }
+      }
+    },
+    "iPhone 16 Pro": {
+      "Natural Titanium": {
+        "portrait": {
+          "imageName": "iphone_16_pro_natural_titanium_portrait",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        },
+        "landscape": {
+          "imageName": "iphone_16_pro_natural_titanium_landscape",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        }
+      },
+      "Desert Titanium": {
+        "portrait": {
+          "imageName": "iphone_16_pro_desert_titanium_portrait",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        },
+        "landscape": {
+          "imageName": "iphone_16_pro_desert_titanium_landscape",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        }
+      },
+      "White Titanium": {
+        "portrait": {
+          "imageName": "iphone_16_pro_white_titanium_portrait",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        },
+        "landscape": {
+          "imageName": "iphone_16_pro_white_titanium_landscape",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        }
+      },
+      "Black Titanium": {
+        "portrait": {
+          "imageName": "iphone_16_pro_black_titanium_portrait",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        },
+        "landscape": {
+          "imageName": "iphone_16_pro_black_titanium_landscape",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        }
+      }
+    },
+    "iPhone 16": {
+      "White": {
+        "portrait": {
+          "imageName": "iphone_16_white_portrait",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        },
+        "landscape": {
+          "imageName": "iphone_16_white_landscape",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        }
+      },
+      "Teal": {
+        "portrait": {
+          "imageName": "iphone_16_teal_portrait",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        },
+        "landscape": {
+          "imageName": "iphone_16_teal_landscape",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        }
+      },
+      "Ultramarine": {
+        "portrait": {
+          "imageName": "iphone_16_ultramarine_portrait",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        },
+        "landscape": {
+          "imageName": "iphone_16_ultramarine_landscape",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        }
+      },
+      "Black": {
+        "portrait": {
+          "imageName": "iphone_16_black_portrait",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        },
+        "landscape": {
+          "imageName": "iphone_16_black_landscape",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        }
+      },
+      "Pink": {
+        "portrait": {
+          "imageName": "iphone_16_pink_portrait",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        },
+        "landscape": {
+          "imageName": "iphone_16_pink_landscape",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        }
+      }
+    },
+    "iPhone 16 Plus": {
+      "White": {
+        "landscape": {
+          "imageName": "iphone_16_plus_white_landscape",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        },
+        "portrait": {
+          "imageName": "iphone_16_plus_white_portrait",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        }
+      },
+      "Teal": {
+        "landscape": {
+          "imageName": "iphone_16_plus_teal_landscape",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        },
+        "portrait": {
+          "imageName": "iphone_16_plus_teal_portrait",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        }
+      },
+      "Ultramarine": {
+        "landscape": {
+          "imageName": "iphone_16_plus_ultramarine_landscape",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        },
+        "portrait": {
+          "imageName": "iphone_16_plus_ultramarine_portrait",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        }
+      },
+      "Pink": {
+        "landscape": {
+          "imageName": "iphone_16_plus_pink_landscape",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        },
+        "portrait": {
+          "imageName": "iphone_16_plus_pink_portrait",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        }
+      },
+      "Black": {
+        "portrait": {
+          "imageName": "iphone_16_plus_black_portrait",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        },
+        "landscape": {
+          "imageName": "iphone_16_plus_black_landscape",
+          "screenRect": {
+            "x": 0.045,
+            "y": 0.018,
+            "width": 0.91,
+            "height": 0.964
+          }
+        }
+      }
+    }
+  }
+}

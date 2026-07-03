@@ -1,0 +1,12 @@
+{
+  "images": [
+    {
+      "filename": "iphone_air_light_gold_landscape.png",
+      "idiom": "universal"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1
+  }
+}

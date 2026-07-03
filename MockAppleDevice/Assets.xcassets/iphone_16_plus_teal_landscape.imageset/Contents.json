@@ -1,0 +1,12 @@
+{
+  "images": [
+    {
+      "filename": "iphone_16_plus_teal_landscape.png",
+      "idiom": "universal"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1
+  }
+}
