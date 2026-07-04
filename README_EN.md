@@ -8,6 +8,9 @@
 
 ---
 
+## Download
+[Download](https://github.com/dogegg-cc/mock-apple-device/releases)
+
 ## 🌟 Core Features
 
 - **All-in-One Apple Device Coverage**: Supports multiple generations of devices including iPhone, iPad, MacBook, and Apple Watch.
