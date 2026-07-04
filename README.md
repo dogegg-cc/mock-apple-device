@@ -9,6 +9,9 @@
 
 ---
 
+## 下载
+[下载地址](https://github.com/dogegg-cc/mock-apple-device/releases)
+
 ## 🌟 核心特性
 
 - **全品类 Apple 设备覆盖**：支持 iPhone、iPad、MacBook、Apple Watch 等多代硬件设备。
