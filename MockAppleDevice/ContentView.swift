@@ -55,7 +55,7 @@ struct ContentView: View {
             }
             .frame(minWidth: 700, minHeight: 600)
             .background(Color(red: 0.95, green: 0.95, blue: 0.97).ignoresSafeArea())
-            .navigationTitle("MockAppleDevice - 全品类高清套壳工具")
+            .navigationTitle("MockAppleDevice")
             .toolbarBackground(Color.clear, for: .windowToolbar)
             .toolbar {
                 ToolbarItem(placement: .primaryAction) {
