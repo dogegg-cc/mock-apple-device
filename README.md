@@ -1,84 +1,83 @@
 # MockAppleDevice 
 
-[English](README_EN.md) | [简体中文](README.md)
+[English](README.md) | [简体中文](README_zh-CN.md)
 
-`MockAppleDevice` 是一款专为 macOS 平台开发的高清、全品类苹果设备样机（Mockup）套壳工具。它允许开发者、设计师和运营人员轻松地将应用截图、系统界面等导入各种苹果硬件设备（iPhone、iPad、MacBook、Apple Watch）的实机边框中，一键渲染出具有自然圆角、精准屏幕拟合以及阴影的专业样机展示图。
+`MockAppleDevice` is a high-definition, all-in-one Apple device mockup tool developed specifically for macOS. It allows developers, designers, and marketers to easily import app screenshots and system interfaces into real-device frames (iPhone, iPad, MacBook, Apple Watch), rendering professional mockups with natural rounded corners, precise screen fitting, and shadows in one click.
 
-<img width="684" height="482.5" alt="截屏2026-07-03 16 46 23" src="https://github.com/user-attachments/assets/24c0ba7e-88a2-480e-a81a-7b244e4dd534" />
-
-
----
-
-## 下载
-[下载地址](https://github.com/dogegg-cc/mock-apple-device/releases)
-
-## 🌟 核心特性
-
-- **全品类 Apple 设备覆盖**：支持 iPhone、iPad、MacBook、Apple Watch 等多代硬件设备。
-- **丰富的设备维度**：支持多种实机机身颜色切换，以及**横屏 (Landscape)** 与**竖屏 (Portrait)** 智能自适应。
+<img width="684" height="482.5" alt="截屏2026-07-03 16 44 37" src="https://github.com/user-attachments/assets/f6d8eb0e-c7e7-48bd-9515-4ad353054291" />
 
 ---
 
-## 🛠 技术栈
+## Download
+[Download](https://github.com/dogegg-cc/mock-apple-device/releases)
 
-- **桌面客户端**：Swift 5.10+ / SwiftUI / AppKit (macOS Target)
-- **自动化工具链**：Python 3 (Pillow 库) —— 用于检测屏幕边界、缩放切图、阴影合并及高精圆角裁剪。
-- **打包部署**：Shell 脚本 (xcodebuild & hdiutil)
+## 🌟 Core Features
+
+- **All-in-One Apple Device Coverage**: Supports multiple generations of devices including iPhone, iPad, MacBook, and Apple Watch.
+- **Rich Device Dimensions**: Supports switching between multiple real-device colors, with smart auto-adaptation for both **Landscape** and **Portrait** orientations.
 
 ---
 
-## 📂 项目结构说明
+## 🛠 Tech Stack
+
+- **Desktop Client**: Swift 5.10+ / SwiftUI / AppKit (macOS Target)
+- **Automation Toolchain**: Python 3 (with Pillow library) — Used for screen boundary detection, image scaling, shadow blending, and high-precision rounded corner cropping.
+- **Build & Deployment**: Shell scripts (`xcodebuild` & `hdiutil`)
+
+---
+
+## 📂 Project Structure
 
 ```text
 MockAppleDevice/
-├── MockAppleDevice.xcodeproj   # Xcode 主工程目录
-├── MockAppleDevice/            # macOS App 主程序源文件
-│   ├── Assets.xcassets/        # 静态资源与应用图标 (AppIcon)
-│   ├── ContentView.swift       # 应用 UI 主框架（NavigationSplitView 分栏布局）
-│   ├── ControlPanel.swift      # 右侧属性调整与批量导出控制面板
-│   ├── CanvasPreview.swift     # 中间样机画布实时预览区 (支持拖拽截图导入)
-│   ├── DeviceConfig.swift      # 设备配置定义及 NSImage 摆正裁剪底层扩展
-│   ├── DeviceMockupView.swift  # 样机独立渲染组件（设备外壳 + 截图遮罩图层）
-│   ├── ExportService.swift     # 高品质图片渲染及多图批量导出逻辑
-│   ├── DeviceRepository.swift  # 设备数据存储仓库与加载管理
-│   ├── MockupState.swift       # 样机配置的全局统一响应式状态模型
-│   └── device_models.json      # 设备参数定义 (包含屏幕占比、圆角等数据)
-├── process_assets.py           # 样机外壳素材自动下载与屏幕坐标扫描工具
-├── scan_custom_devices.py      # 自定义样机扩展扫描脚本
-└── build_dmg.sh                # 自动化构建 Release 版 App 并封装为 DMG 安装包的脚本
+├── MockAppleDevice.xcodeproj   # Main Xcode project directory
+├── MockAppleDevice/            # macOS App source files
+│   ├── Assets.xcassets/        # Static resources and AppIcon
+│   ├── ContentView.swift       # App UI main layout (NavigationSplitView split-pane layout)
+│   ├── ControlPanel.swift      # Right-side property inspector & batch export control panel
+│   ├── CanvasPreview.swift     # Center mockup canvas preview area (supports drag-and-drop screenshots)
+│   ├── DeviceConfig.swift      # Device configuration definitions and NSImage rotation/cropping extensions
+│   ├── DeviceMockupView.swift  # Mockup rendering component (device shell + screenshot mask layer)
+│   ├── ExportService.swift     # High-quality image rendering and batch export logic
+│   ├── DeviceRepository.swift  # Device data storage and loading manager
+│   ├── MockupState.swift       # Unified reactive state model for mockup configurations
+│   └── device_models.json      # Device parameter definitions (screen ratio, corner radius, etc.)
+├── process_assets.py           # Script for auto-downloading device shells and scanning screen coordinates
+├── scan_custom_devices.py      # Custom mockup expansion scanner script
+└── build_dmg.sh                # Script to build release build and package as a DMG installer
 ```
 
 ---
 
-## 🚀 开发者指南
+## 🚀 Developer Guide
 
-### 1. 环境准备
+### 1. Prerequisites
 
-- **系统要求**：macOS 14.0 或更高版本
-- **开发工具**：Xcode 15.0 或更高版本
-- **脚本依赖**：Python 3 及 Pillow 库（如果没有，运行配套脚本时会自动安装）。
+- **OS Requirement**: macOS 14.0 or later
+- **Development Tool**: Xcode 15.0 or later
+- **Script Dependencies**: Python 3 and Pillow library (will be automatically installed when running the helper scripts if missing).
 
-### 2. 运行与编译
+### 2. Run & Build
 
-1. 使用 Xcode 打开主工程 `MockAppleDevice.xcodeproj`。
-2. 选择 **MockAppleDevice** Scheme，Destination 选择 **My Mac**。
-3. 按下 `Cmd + R` 即可编译并在本地运行。
+1. Open the main project `MockAppleDevice.xcodeproj` in Xcode.
+2. Select the **MockAppleDevice** Scheme and set the destination to **My Mac**.
+3. Press `Cmd + R` to compile and run locally.
 
 ---
 
-## ⚙️ 配套工具与自动化脚本
+## ⚙️ Helper Tools & Automation Scripts
 
-项目根目录下提供了多款高效的自动化开发/运维脚本：
+Several efficient automation development/ops scripts are provided in the project root:
 
-### 1. 自动下载与同步设备素材
-运行脚本可自动拉取最新的设备框图（来自公开设备框架仓），并自动扫描图像内黑色像素块来**反推屏幕的位置与尺寸比率**，将坐标合并写入 `Assets` 目录。
+### 1. Auto-Download and Sync Device Assets
+Run the script to automatically pull the latest device wireframes (from public device mockup repositories), scan the black pixel blocks in the images to **reverse-engineer screen positions and aspect ratios**, and merge the coordinates into the `Assets` directory.
 ```bash
 python3 process_assets.py
 ```
 
-### 2. 一键编译并打包为 `.dmg` 分发包
-执行以下脚本，它将自动清理旧编译缓存，调用 `xcodebuild` 编译 Release 版本，创建 Applications 快捷方式链接，并使用 `hdiutil` 封装生成极客风格的只读压缩磁盘映像：
+### 2. Build & Package as `.dmg` Installer in One Click
+Execute the following script to automatically clean old build caches, invoke `xcodebuild` to build the Release version, create a shortcut link to Applications, and use `hdiutil` to package it into a clean, read-only compressed disk image (DMG):
 ```bash
 ./build_dmg.sh
 ```
-打包成功后，可在根目录下的 `ipa/` 目录中找到 `MockAppleDevice.dmg`。
+Upon successful packaging, you can find `MockAppleDevice.dmg` in the `ipa/` directory under the root path.
