@@ -110,3 +110,6 @@ coverage/
 *.pem
 *.jks
 # Keys.plist
+
+# Local notarization packaging script
+/build_notarized_dmg.sh
