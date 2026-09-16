@@ -2,7 +2,7 @@
 
 [English](README.md) | [简体中文](README_zh-CN.md)
 
-`MockAppleDevice` is a high-definition, all-in-one Apple device mockup tool developed specifically for macOS. It allows developers, designers, and marketers to easily import app screenshots and system interfaces into real-device frames (iPhone, iPad, MacBook, Apple Watch), rendering professional mockups with natural rounded corners, precise screen fitting, and shadows in one click.
+`MockAppleDevice` is a macOS device mockup tool. Import screenshots, choose an iPhone, iPad, MacBook, or Apple Watch frame, preview the result, and export PNGs in batches. Image compositing runs locally.
 
 <img width="684" height="482.5" alt="截屏2026-07-24 22 24 15" src="https://github.com/user-attachments/assets/062d2f1c-162f-4b97-a939-4559e0e34b1e" />
 
@@ -12,78 +12,158 @@
 
 <img width="684" height="482.5" alt="截屏2026-07-24 22 26 25" src="https://github.com/user-attachments/assets/d127906a-670f-43f3-983a-3818f1abf1fd" />
 
----
+## Download and use
 
-## Download
-[Download](https://github.com/dogegg-cc/mock-apple-device/releases)
+Download a published version from [Releases](https://github.com/dogegg-cc/mock-apple-device/releases). The app's minimum deployment target is macOS 14.0; the repository's packaging script produces a DMG for Apple Silicon (arm64).
 
-## 🌟 Core Features
+1. Choose a device category and model in the sidebar.
+2. Drag screenshots onto the canvas, or use the import button to select multiple images.
+3. Choose a color or band style and select the supported export orientations.
+4. Select a screenshot in the bottom tray to preview it, then export to a folder.
 
-- **All-in-One Apple Device Coverage**: Supports multiple generations of devices including iPhone, iPad, MacBook, and Apple Watch.
-- **Rich Device Dimensions**: Supports switching between multiple real-device colors, with smart auto-adaptation for both **Landscape** and **Portrait** orientations.
+Each batch uses the selected model and color for all imported screenshots and selected orientations. Transparent areas around the device are preserved. Available styles and orientations depend on the imported assets. The interface includes Simplified Chinese and English language options.
 
----
+Screenshots rotate automatically when their orientation differs from the frame, then scale to the configured screen rectangle. Different aspect ratios can stretch the screenshot; use screenshots matching the target screen ratio for best results. Frame styling and shadows come from the source artwork.
 
-## 🛠 Tech Stack
+## Device assets
 
-- **Desktop Client**: Swift 5.10+ / SwiftUI / AppKit (macOS Target)
-- **Automation Toolchain**: Python 3 (with Pillow library) — Used for screen boundary detection, image scaling, shadow blending, and high-precision rounded corner cropping.
-- **Build & Deployment**: Shell scripts (`xcodebuild` & `hdiutil`)
+The current configuration includes the following families. See [device_models.json](MockAppleDevice/device_models.json) for exact models, colors, and orientations.
 
----
+| Category | Included families |
+| --- | --- |
+| iPhone | iPhone 16 and 17 families, iPhone Air, iPhone 18 Pro / Pro Max |
+| iPad | iPad (A16), iPad mini (A17 Pro), iPad Air (M4), iPad Pro (M5) |
+| MacBook | MacBook Air (M5), MacBook Pro (M5), MacBook Neo |
+| Apple Watch | Series 11, Ultra 3 |
 
-## 📂 Project Structure
+## Build from source
+
+- The app uses Swift, SwiftUI, AppKit, and Core Graphics.
+- The current source has passed a Debug build with Xcode 27.0. Compatibility with older Xcode versions has not been verified.
+- The app target deploys to macOS 14.0 or later. Project-level and test deployment settings use macOS 26.5; running tests requires an environment that meets those settings.
+- Python 3 and Pillow are only needed to maintain device assets. Building and using the app does not require them.
+
+Open `MockAppleDevice.xcodeproj` in Xcode, select the `MockAppleDevice` scheme and `My Mac`, then press `Cmd + R`. The project uses automatic signing; select your own Development Team in Signing & Capabilities when signing is required.
+
+For a local unsigned build check, run from the repository root:
+
+```bash
+xcodebuild -project MockAppleDevice.xcodeproj \
+  -scheme MockAppleDevice \
+  -configuration Debug \
+  -destination 'platform=macOS' \
+  -derivedDataPath build \
+  CODE_SIGNING_ALLOWED=NO build
+```
+
+This checks compilation and does not create a distribution DMG.
+
+## Add or update device models
+
+The asset workflow is:
 
 ```text
-MockAppleDevice/
-├── MockAppleDevice.xcodeproj   # Main Xcode project directory
-├── MockAppleDevice/            # macOS App source files
-│   ├── Assets.xcassets/        # Static resources and AppIcon
-│   ├── ContentView.swift       # App UI main layout (NavigationSplitView split-pane layout)
-│   ├── ControlPanel.swift      # Right-side property inspector & batch export control panel
-│   ├── CanvasPreview.swift     # Center mockup canvas preview area (supports drag-and-drop screenshots)
-│   ├── DeviceConfig.swift      # Device configuration definitions and NSImage rotation/cropping extensions
-│   ├── DeviceMockupView.swift  # Mockup rendering component (device shell + screenshot mask layer)
-│   ├── ExportService.swift     # High-quality image rendering and batch export logic
-│   ├── DeviceRepository.swift  # Device data storage and loading manager
-│   ├── MockupState.swift       # Unified reactive state model for mockup configurations
-│   └── device_models.json      # Device parameter definitions (screen ratio, corner radius, etc.)
-├── process_assets.py           # Script for auto-downloading device shells and scanning screen coordinates
-├── scan_custom_devices.py      # Custom mockup expansion scanner script
-└── build_dmg.sh                # Script to build release build and package as a DMG installer
+Source PNGs in Device/
+  → scan_custom_devices.py
+  → Assets.xcassets + device_models.json
+  → Build the app
+  → DeviceRepository loads the configuration for the UI
 ```
 
----
+The app reads bundled resources and configuration. After adding source PNGs, import them and rebuild. Adding a model within an existing category usually only requires assets and JSON; adding a new category also requires changes to the Swift category definitions and related logic.
 
-## 🚀 Developer Guide
+### 1. Prepare transparent PNGs
 
-### 1. Prerequisites
+Device frames need a transparent screen opening so screenshots can be drawn behind them. The importer copies the original image; it does not cut out the screen or remove existing screen content. Use the lowercase `.png` extension.
 
-- **OS Requirement**: macOS 14.0 or later
-- **Development Tool**: Xcode 15.0 or later
-- **Script Dependencies**: Python 3 and Pillow library (will be automatically installed when running the helper scripts if missing).
+For iPhone and iPad, use `Model - Color - Orientation.png`. For example:
 
-### 2. Run & Build
+```text
+Device/
+└── iPhone-18/
+    └── iPhone 18 Pro/
+        ├── iPhone 18 Pro - Black - Portrait.png
+        ├── iPhone 18 Pro - Black - Landscape.png
+        ├── iPhone 18 Pro - Silver - Portrait.png
+        └── iPhone 18 Pro - Silver - Landscape.png
+```
 
-1. Open the main project `MockAppleDevice.xcodeproj` in Xcode.
-2. Select the **MockAppleDevice** Scheme and set the destination to **My Mac**.
-3. Press `Cmd + R` to compile and run locally.
+Use `Portrait` or `Landscape` for the orientation. Keep one source image per model, color, and orientation to avoid resource collisions. MacBook and Apple Watch use different filename parsing rules: follow the existing assets and `parse_metadata()` in the script, then inspect the generated model and color names.
 
----
+### 2. Install importer dependencies
 
-## ⚙️ Helper Tools & Automation Scripts
+From the repository root, create a Python virtual environment and install Pillow:
 
-Several efficient automation development/ops scripts are provided in the project root:
-
-### 1. Auto-Download and Sync Device Assets
-Run the script to automatically pull the latest device wireframes (from public device mockup repositories), scan the black pixel blocks in the images to **reverse-engineer screen positions and aspect ratios**, and merge the coordinates into the `Assets` directory.
 ```bash
-python3 process_assets.py
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install Pillow
 ```
 
-### 2. Build & Package as `.dmg` Installer in One Click
-Execute the following script to automatically clean old build caches, invoke `xcodebuild` to build the Release version, create a shortcut link to Applications, and use `hdiutil` to package it into a clean, read-only compressed disk image (DMG):
+Keep the local `.venv/` directory out of version control. The script's current entry point does not install Pillow automatically. Without it, screen detection logs an error and falls back to default coordinates.
+
+### 3. Import assets
+
+With that virtual environment active, run from the repository root:
+
+```bash
+python scan_custom_devices.py .
+```
+
+Pass `.` explicitly as the repository root; omitting the argument uses a machine-specific path hardcoded in the script. The importer scans all of `Device/`, parses category, model, color, and orientation, detects screen bounds, and writes image sets and the complete `device_models.json`.
+
+**This is a full rebuild, not an incremental merge.** Existing images with matching resource names are overwritten. Manual coordinate adjustments and models present only in the JSON are replaced by the generated configuration. Removing a source image does not automatically remove its old `.imageset`; review and delete unused resources separately.
+
+Screen detection uses transparent pixels and margin rules, with some fixed proportions for iPhones. Verify the result in the app. The script does not download artwork or composite screenshots.
+
+### 4. Review and verify
+
+- Review the Git diff for model names, colors, orientations, resource names, and unexpected changes to existing configuration.
+- Check that every referenced `.imageset` contains its PNG and matching `Contents.json`.
+- Rebuild and run the app. Import screenshots and inspect colors, orientations, screen edges, corners, and camera cutouts, then check exported PNGs.
+- Commit the source files under `Device/`, generated `Assets.xcassets` resources, and `device_models.json` together.
+
+`screenRect` uses coordinates from 0 to 1 relative to the complete frame image. Corner radii currently come from `DeviceCategory.defaultCornerRadius` in `DeviceConfig.swift`. The legacy `MockAppleDevice/update_json.py` script adds a `cornerRadius` JSON field that the current configuration model does not read; it is not part of the import workflow.
+
+## Package a DMG
+
+Run from the repository root:
+
 ```bash
 ./build_dmg.sh
 ```
-Upon successful packaging, you can find `MockAppleDevice.dmg` in the `ipa/` directory under the root path.
+
+The script builds a Release **arm64** app using the project's signing settings, adds an Applications shortcut, and writes `ipa/MockAppleDevice.dmg`. It does not import device assets; complete the import and verification steps first.
+
+At startup, it deletes the root `build/` and `dist/` directories and the previous DMG with the same name. Temporary build directories are removed after successful packaging. The script does not notarize or staple the app, or produce Intel or Universal builds.
+
+## Project structure
+
+```text
+MockAppleDevice/
+├── Device/                        # Source device PNGs
+├── MockAppleDevice.xcodeproj/     # Xcode project
+├── MockAppleDevice/
+│   ├── Assets.xcassets/           # Bundled image resources and app icon
+│   ├── device_models.json        # Model → color → orientation → image and screen rect
+│   ├── DeviceConfig.swift        # Config types, corner radii, screenshot rotation
+│   ├── DeviceRepository.swift    # Loads device configuration from the app bundle
+│   ├── MockupState.swift         # Current device selection and screenshot list
+│   ├── ContentView.swift         # Main layout and language selection
+│   ├── DeviceSidebar.swift       # Category and model selection
+│   ├── CanvasPreview.swift       # Mockup preview and screenshot drop handling
+│   ├── ScreenshotTray.swift      # Screenshot import, selection, and removal
+│   ├── ControlPanel.swift        # Style, orientation, and export controls
+│   ├── DeviceMockupView.swift    # SwiftUI mockup preview compositing
+│   ├── ExportService.swift       # AppKit / Core Graphics compositing and PNG export
+│   ├── Localizable/              # UI localization resources
+│   └── update_json.py            # Legacy cornerRadius field migration script
+├── MockAppleDeviceTests/          # Unit test target
+├── MockAppleDeviceUITests/        # UI test target
+├── scan_custom_devices.py         # Full asset import and configuration generation
+└── build_dmg.sh                   # arm64 Release build and DMG packaging
+```
+
+## License
+
+The project includes an [MIT License](LICENSE).
