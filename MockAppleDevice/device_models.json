@@ -1916,6 +1916,170 @@
           }
         }
       }
+    },
+    "iPhone 18 Pro": {
+      "Black": {
+        "landscape": {
+          "imageName": "iphone_18_pro_black_landscape",
+          "screenRect": {
+            "x": 0.018,
+            "y": 0.04733333333333334,
+            "width": 0.964,
+            "height": 0.9053333333333333
+          }
+        },
+        "portrait": {
+          "imageName": "iphone_18_pro_black_portrait",
+          "screenRect": {
+            "x": 0.04733333333333334,
+            "y": 0.018,
+            "width": 0.9053333333333333,
+            "height": 0.964
+          }
+        }
+      },
+      "Burgundy": {
+        "landscape": {
+          "imageName": "iphone_18_pro_burgundy_landscape",
+          "screenRect": {
+            "x": 0.018,
+            "y": 0.04733333333333334,
+            "width": 0.964,
+            "height": 0.9053333333333333
+          }
+        },
+        "portrait": {
+          "imageName": "iphone_18_pro_burgundy_portrait",
+          "screenRect": {
+            "x": 0.04733333333333334,
+            "y": 0.018,
+            "width": 0.9053333333333333,
+            "height": 0.964
+          }
+        }
+      },
+      "Glacier": {
+        "landscape": {
+          "imageName": "iphone_18_pro_glacier_landscape",
+          "screenRect": {
+            "x": 0.018,
+            "y": 0.04733333333333334,
+            "width": 0.964,
+            "height": 0.9053333333333333
+          }
+        },
+        "portrait": {
+          "imageName": "iphone_18_pro_glacier_portrait",
+          "screenRect": {
+            "x": 0.04733333333333334,
+            "y": 0.018,
+            "width": 0.9053333333333333,
+            "height": 0.964
+          }
+        }
+      },
+      "Silver": {
+        "landscape": {
+          "imageName": "iphone_18_pro_silver_landscape",
+          "screenRect": {
+            "x": 0.018,
+            "y": 0.04733333333333334,
+            "width": 0.964,
+            "height": 0.9053333333333333
+          }
+        },
+        "portrait": {
+          "imageName": "iphone_18_pro_silver_portrait",
+          "screenRect": {
+            "x": 0.04733333333333334,
+            "y": 0.018,
+            "width": 0.9053333333333333,
+            "height": 0.964
+          }
+        }
+      }
+    },
+    "iPhone 18 Pro Max": {
+      "Black": {
+        "landscape": {
+          "imageName": "iphone_18_pro_max_black_landscape",
+          "screenRect": {
+            "x": 0.018,
+            "y": 0.04570068027210884,
+            "width": 0.964,
+            "height": 0.9099591836734694
+          }
+        },
+        "portrait": {
+          "imageName": "iphone_18_pro_max_black_portrait",
+          "screenRect": {
+            "x": 0.04502040816326531,
+            "y": 0.018,
+            "width": 0.9099591836734694,
+            "height": 0.964
+          }
+        }
+      },
+      "Burgundy": {
+        "landscape": {
+          "imageName": "iphone_18_pro_max_burgundy_landscape",
+          "screenRect": {
+            "x": 0.018,
+            "y": 0.04570068027210884,
+            "width": 0.964,
+            "height": 0.9099591836734694
+          }
+        },
+        "portrait": {
+          "imageName": "iphone_18_pro_max_burgundy_portrait",
+          "screenRect": {
+            "x": 0.04502040816326531,
+            "y": 0.018,
+            "width": 0.9099591836734694,
+            "height": 0.964
+          }
+        }
+      },
+      "Glacier": {
+        "landscape": {
+          "imageName": "iphone_18_pro_max_glacier_landscape",
+          "screenRect": {
+            "x": 0.018,
+            "y": 0.04570068027210884,
+            "width": 0.964,
+            "height": 0.9099591836734694
+          }
+        },
+        "portrait": {
+          "imageName": "iphone_18_pro_max_glacier_portrait",
+          "screenRect": {
+            "x": 0.04502040816326531,
+            "y": 0.018,
+            "width": 0.9099591836734694,
+            "height": 0.964
+          }
+        }
+      },
+      "Silver": {
+        "landscape": {
+          "imageName": "iphone_18_pro_max_silver_landscape",
+          "screenRect": {
+            "x": 0.018,
+            "y": 0.04570068027210884,
+            "width": 0.964,
+            "height": 0.9099591836734694
+          }
+        },
+        "portrait": {
+          "imageName": "iphone_18_pro_max_silver_portrait",
+          "screenRect": {
+            "x": 0.04502040816326531,
+            "y": 0.018,
+            "width": 0.9099591836734694,
+            "height": 0.964
+          }
+        }
+      }
     }
   }
 }
